@@ -69,7 +69,7 @@ cc.Class({
         }
         let pageIndex = this.pageView.getComponent(cc.PageView).getCurrentPageIndex();
         cc.find('pageCode', this.node).getComponent(cc.Label).string = `PageView自动翻页>>>>第 ${pageIndex + 1} 页滚屏`;
-        
+
 
     },
 
@@ -126,7 +126,7 @@ cc.Class({
                 this._positionAll.push(cc.v2(posX, 0));
             }
             content.setPosition(this._positionAll[0]);
-
+//[{"x":1878,"y":0},{"x":1252,"y":0},{"x":626,"y":0},{"x":0,"y":0},{"x":-626,"y":0},{"x":-1252,"y":0},{"x":-1878,"y":0}]
             cc.find("scrollViewLabel", this.node).getComponent(cc.Label).string = "以下ScrollView自动翻页 >>> 第 1 页";
             console.log("子节点数：" + content.childrenCount + "   paddingValue:  " + paddingValue + "  allWidth: " + allWidth + "\n->Position:   " + JSON.stringify(this._positionAll));
 
@@ -137,6 +137,7 @@ cc.Class({
 
     },
 
+    //[{"x":1878,"y":0},{"x":1252,"y":0},{"x":626,"y":0},{"x":0,"y":0},{"x":-626,"y":0},{"x":-1252,"y":0},{"x":-1878,"y":0}]
     scrollViewChangeEvent: function (event, custom) {
         // let node = event.node;
         // let content = cc.find("scrollView/view/content", this.node);
@@ -170,9 +171,7 @@ cc.Class({
     },
 
     _findPositionByIndex: function (index) {
-        if (index >= 0 && index < this.scrollView.content.childrenCount) {
-            return this._positionAll[index];
-        }
+        if (index >= 0 && index < this.scrollView.content.childrenCount) return this._positionAll[index];
         return cc.v2(0, 0);
     },
 
@@ -224,14 +223,15 @@ cc.Class({
     _setScrollViewPageLight: function (currentIndex) {
 
         let  pageNode = cc.find("scrollView/pageNode", this.node);
-        for (let i = 0; i < pageNode.childrenCount; i++) {
-            if(currentIndex !== i){
-                let tempNode = pageNode.children[i];
-                tempNode.getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(this.pageControlYellowNode);
+        if(currentIndex <= pageNode.childrenCount && currentIndex >= 0){
+            for (let i = 0; i < pageNode.childrenCount; i++) {
+                if(currentIndex !== i){
+                    let tempNode = pageNode.children[i];
+                    tempNode.getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(this.pageControlYellowNode);
+                }
             }
+            pageNode.children[currentIndex].getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(this.pageControlRedNode);
         }
-        pageNode.children[currentIndex].getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(this.pageControlRedNode);
-
         // cc.loader.loadRes("img/page01", cc.SpriteFrame, function (err, spFrame) {
         //     let node = pageNode.children[currentIndex];
         //     node.getComponent(cc.Sprite).spriteFrame = spFrame;
