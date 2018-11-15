@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "8a70c8f3-615c-47b4-8bdc-6c77d020b526",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "img_stage_list_iphonex_bg_universe": {
+      "ver": "1.0.3",
+      "uuid": "ab47e43f-d4f9-413b-9cea-ab6e6bcf48de",
+      "rawTextureUuid": "8a70c8f3-615c-47b4-8bdc-6c77d020b526",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 750,
+      "height": 2668,
+      "rawWidth": 750,
+      "rawHeight": 2668,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
