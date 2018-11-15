@@ -69,6 +69,7 @@ cc.Class({
         }
         let pageIndex = this.pageView.getComponent(cc.PageView).getCurrentPageIndex();
         cc.find('pageCode', this.node).getComponent(cc.Label).string = `PageView自动翻页>>>>第 ${pageIndex + 1} 页滚屏`;
+        
 
     },
 
