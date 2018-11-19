@@ -12,13 +12,14 @@ cc.Class({
         _positionAll: [],
         pageControlRedNode : cc.Texture2D,
         pageControlYellowNode : cc.Texture2D,
+        _curScrollViewPosition: cc.v2(0,0),
 
     },
 
     // use this for initialization
     onLoad: function () {
 
-        // this._registerTouchEvent();
+        this._registerTouchEvent();
         this._initItemData();
         this._initUIBtn();
         this._initPageView();
@@ -157,6 +158,7 @@ cc.Class({
             let finalPos = this._findPositionByIndex(index);
             // console.log("翻到第：" + (index+1) + " 页     自动切换到的坐标位置： " + JSON.stringify(finalPos));
             this.scrollView.content.runAction(cc.moveTo(0.5, finalPos));
+            this._curScrollViewPosition = finalPos;
             this._setScrollViewPageLight(index);//底部pageControl 处理
             cc.find("scrollViewLabel", this.node).getComponent(cc.Label).string = "以下ScrollView自动翻页 >>> 第 " + (index + 1) + " 页";
         }, 3);
@@ -307,15 +309,26 @@ cc.Class({
     },
 
     _registerTouchEvent: function () {
+
         let listener = {
             event: cc.EventListener.TOUCH_ONE_BY_ONE,
             swallowTouches: true,
             onTouchBegan: function (touches, event) {
                 return true;
             },
-            onTouchMoved: function (event) {
+            onTouchMoved: function (touches,event) {
             },
-            onTouchEnded: function (event) {
+            onTouchEnded: function (touches,event) {
+
+                //获取手指触摸结束时的位置
+                let location = touches.getLocation();
+                let real = cc.director.getScene().convertToNodeSpace(location);
+                console.log("结束点location： " + JSON.stringify(location)  + "    real:  " + real);
+
+
+
+
+
             }
         };
 
