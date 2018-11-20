@@ -2075,6 +2075,11 @@
     },
     "pageControlYellowNode": {
       "__uuid__": "f6ed0e8b-0497-4efe-b1a5-534134fd0b0b"
+    },
+    "_curScrollViewPosition": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
     }
   }
 ]
