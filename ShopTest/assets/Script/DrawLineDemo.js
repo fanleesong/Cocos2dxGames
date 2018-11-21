@@ -23,6 +23,10 @@ cc.Class({
         this.graphics.stroke();//必须调用用于画线
 
     },
+    
+    onDestroy : function () {
+        this.graphics.clear();
+    }
 
 
 });
