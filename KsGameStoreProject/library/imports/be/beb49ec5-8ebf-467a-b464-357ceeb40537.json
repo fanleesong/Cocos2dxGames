@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_share_dialog_background01",
+    "texture": "697587cf-e2f7-45a7-ba73-1966ceb062f2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      625,
+      340
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      625,
+      340
+    ]
+  }
+}

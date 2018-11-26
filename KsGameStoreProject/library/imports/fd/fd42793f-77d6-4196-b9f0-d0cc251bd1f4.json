@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_share_close_btnsheld",
+    "texture": "79a45eff-1c95-4986-a3e8-4d734cecf1ec",
+    "atlas": "",
+    "rect": [
+      8,
+      8,
+      63,
+      65
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      80,
+      80
+    ]
+  }
+}

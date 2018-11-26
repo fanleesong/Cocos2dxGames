@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_launcher_schedule_anim_sprite",
+    "texture": "060855c1-d2d1-458a-8cd8-7ad988d87ac3",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      83,
+      57
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      86,
+      60
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "41e187b8-d4b6-47f5-b337-6368d22b37e4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "img_launcher_background_fitIphoneX": {
+      "ver": "1.0.3",
+      "uuid": "3d606579-5663-4e10-88f3-1afae5018f09",
+      "rawTextureUuid": "41e187b8-d4b6-47f5-b337-6368d22b37e4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 750,
+      "height": 2668,
+      "rawWidth": 750,
+      "rawHeight": 2668,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

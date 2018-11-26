@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_launcher_background_fitIphoneX",
+    "texture": "41e187b8-d4b6-47f5-b337-6368d22b37e4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      750,
+      2668
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      750,
+      2668
+    ]
+  }
+}

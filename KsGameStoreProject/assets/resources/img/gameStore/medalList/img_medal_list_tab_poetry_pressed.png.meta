@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "ff3f6b8c-dfd7-499d-89e8-d436ef24edc4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "img_medal_list_tab_poetry_pressed": {
+      "ver": "1.0.3",
+      "uuid": "efcf4a78-d80c-4bca-a925-c75bba43411f",
+      "rawTextureUuid": "ff3f6b8c-dfd7-499d-89e8-d436ef24edc4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 2,
+      "width": 178,
+      "height": 63,
+      "rawWidth": 180,
+      "rawHeight": 67,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_medal_list_scene_bg_iphonex",
+    "texture": "3c421059-d0d2-4469-a76e-7f81f5931635",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      750,
+      2668
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      750,
+      2668
+    ]
+  }
+}

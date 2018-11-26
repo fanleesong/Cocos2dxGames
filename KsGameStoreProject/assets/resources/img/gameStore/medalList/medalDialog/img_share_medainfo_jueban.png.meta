@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "ab95ea79-eb5f-42c4-9636-b9bc9d95c188",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "img_share_medainfo_jueban": {
+      "ver": "1.0.3",
+      "uuid": "5a195024-606d-4240-a1ab-a180b2e6bb2d",
+      "rawTextureUuid": "ab95ea79-eb5f-42c4-9636-b9bc9d95c188",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -0.5,
+      "trimX": 0,
+      "trimY": 1,
+      "width": 110,
+      "height": 137,
+      "rawWidth": 111,
+      "rawHeight": 138,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

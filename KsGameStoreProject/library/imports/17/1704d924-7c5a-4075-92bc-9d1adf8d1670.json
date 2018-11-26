@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_world_bar_icon_basketball",
+    "texture": "90261d99-476a-410f-9cbd-339047eaeee5",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      103,
+      102
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      106,
+      105
+    ]
+  }
+}

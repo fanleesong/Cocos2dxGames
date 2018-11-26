@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_share_medainfo_jueban",
+    "texture": "ab95ea79-eb5f-42c4-9636-b9bc9d95c188",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      110,
+      137
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      111,
+      138
+    ]
+  }
+}

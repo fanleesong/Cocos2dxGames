@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_medal_list_tab_recommend_normal",
+    "texture": "11e97eff-bc45-46d5-9807-1c5468bac8ac",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      159,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      163,
+      59
+    ]
+  }
+}

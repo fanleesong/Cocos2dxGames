@@ -1,0 +1,109 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 1443,
+      "y": 23,
+      "width": 1920,
+      "height": 1022,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 444,
+                "type": "panel",
+                "width": 412
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 484,
+                "type": "panel",
+                "width": 412
+              }
+            ],
+            "height": 931,
+            "type": "dock-v",
+            "width": 412
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 493,
+                "type": "panel",
+                "width": 988
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline"
+                ],
+                "height": 435,
+                "type": "panel",
+                "width": 988
+              }
+            ],
+            "height": 931,
+            "type": "dock-v",
+            "width": 988
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector"
+            ],
+            "height": 931,
+            "type": "panel",
+            "width": 508
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "console",
+        "inspector",
+        "hierarchy",
+        "assets",
+        "scene",
+        "timeline"
+      ]
+    },
+    "window-1543227327942": {
+      "main": false,
+      "url": "unpack://static/window.html",
+      "windowType": "dockable",
+      "x": 2080,
+      "y": 292,
+      "width": 584,
+      "height": 548,
+      "layout": {
+        "children": [],
+        "type": "dock-v"
+      },
+      "panels": []
+    }
+  },
+  "panels": {
+    "project-settings": {
+      "x": 2080,
+      "y": 292,
+      "width": 584,
+      "height": 548
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_share_headIcon_heart_background",
+    "texture": "deaa2ab7-b503-4879-b964-fa649f6d423a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      27,
+      22
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      27,
+      22
+    ]
+  }
+}

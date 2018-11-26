@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_medal_list_layout_bg",
+    "texture": "241ece17-5f94-41d9-9c52-dfa1d0add0c0",
+    "atlas": "",
+    "rect": [
+      9,
+      9,
+      687,
+      910
+    ],
+    "offset": [
+      -0.5,
+      1.5
+    ],
+    "originalSize": [
+      706,
+      931
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_display_sm_qrcode",
+    "texture": "7cb7577a-175c-443d-9666-4ceb5f144c4d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      112,
+      111
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      112,
+      111
+    ]
+  }
+}
