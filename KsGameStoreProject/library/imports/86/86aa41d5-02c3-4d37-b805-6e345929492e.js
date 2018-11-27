@@ -29,6 +29,7 @@ var URLConst = {
 
     ///////////////////////////////////////////////////地址///////////////////////////////////////////////////////////////////////////
 
+    productRecommendList: "v1/store/recommend",
     //用户信息-新
     UserInfo: "v1/user",
 
@@ -76,6 +77,13 @@ var URLConst = {
         }
 
         return URLConst.ReportPointURL_Debug;
+    },
+
+    /**
+     *获取商品推荐列表
+     */
+    getProductRecommendURL: function getProductRecommendURL() {
+        return URLConst.getURLBase() + URLConst.productRecommendList;
     },
 
     /**

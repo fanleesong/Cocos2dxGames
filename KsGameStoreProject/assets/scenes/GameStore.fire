@@ -760,7 +760,9 @@
     "_N$normalSprite": {
       "__uuid__": "4ebbe43d-e7be-4080-990f-eb0c95965d50"
     },
-    "_N$disabledSprite": null,
+    "_N$disabledSprite": {
+      "__uuid__": "4ebbe43d-e7be-4080-990f-eb0c95965d50"
+    },
     "_N$target": {
       "__id__": 10
     }

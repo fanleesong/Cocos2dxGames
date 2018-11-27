@@ -27,9 +27,6 @@ var LauncherProxy = function (_Proxy) {
         var _this = _possibleConstructorReturn(this, (LauncherProxy.__proto__ || Object.getPrototypeOf(LauncherProxy)).call(this));
 
         _this._cacheRecoverLifeSeconds = 0;
-        _this._cacheCabinPlaceList = null;
-        _this._cacheUserItemList = null;
-        _this._cacheConfig = null;
         _this._cacheHpNum = 0;
         return _this;
     }
@@ -115,6 +112,33 @@ var LauncherProxy = function (_Proxy) {
                     this._sendLoadingProgressNotification(0.1);
                     cc.ss.Facade.sendNotification(cc.ss.TagConst.TAG_LAUNCHER_GAME_INITIALIZE_INFO_COMPLETE, rlt);
                 } else {
+                    this._sendShowErrorDialogNotification();
+                }
+            } else {
+                this._sendShowErrorDialogNotification();
+            }
+        }
+
+        /**
+         * 请求商品推荐列表
+         * @private
+         */
+
+    }, {
+        key: '_requestProductRecommendList',
+        value: function _requestProductRecommendList() {
+
+            var task = RequestTaskFactory.createTask(Task_Type.Api_Forum, cc.ss.URLConst.getProductRecommendURL(), {}, this._onResponseProductRecommendList.bind(this));
+            task.doGet();
+        }
+    }, {
+        key: '_onResponseProductRecommendList',
+        value: function _onResponseProductRecommendList(data) {
+
+            var infoCode = data.infoCode;
+            if (infoCode === 0) {
+                var obj = JSON.parse(data.data);
+                if (obj.errcode === 0) {} else {
                     this._sendShowErrorDialogNotification();
                 }
             } else {

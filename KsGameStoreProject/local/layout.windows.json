@@ -5,7 +5,7 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 1443,
+      "x": 1440,
       "y": 23,
       "width": 1920,
       "height": 1022,
@@ -82,20 +82,6 @@
         "scene",
         "timeline"
       ]
-    },
-    "window-1543227327942": {
-      "main": false,
-      "url": "unpack://static/window.html",
-      "windowType": "dockable",
-      "x": 2080,
-      "y": 292,
-      "width": 584,
-      "height": 548,
-      "layout": {
-        "children": [],
-        "type": "dock-v"
-      },
-      "panels": []
     }
   },
   "panels": {

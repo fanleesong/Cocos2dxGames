@@ -7,9 +7,6 @@ class LauncherProxy extends Proxy
     {
         super();
         this._cacheRecoverLifeSeconds = 0;
-        this._cacheCabinPlaceList = null;
-        this._cacheUserItemList = null;
-        this._cacheConfig = null;
         this._cacheHpNum = 0;
     }
     getProxyName() { return cc.ss.NameConst.NAME_PROXY_LAUNCHER; }
@@ -83,6 +80,35 @@ class LauncherProxy extends Proxy
                 rlt.hp = this._cacheHpNum;
                 this._sendLoadingProgressNotification(0.1);
                 cc.ss.Facade.sendNotification(cc.ss.TagConst.TAG_LAUNCHER_GAME_INITIALIZE_INFO_COMPLETE, rlt);
+
+            }else {
+                this._sendShowErrorDialogNotification();
+            }
+
+        }else {
+            this._sendShowErrorDialogNotification();
+        }
+
+    }
+
+    /**
+     * 请求商品推荐列表
+     * @private
+     */
+    _requestProductRecommendList(){
+
+        let task = RequestTaskFactory.createTask(Task_Type.Api_Forum, cc.ss.URLConst.getProductRecommendURL(), {}, this._onResponseProductRecommendList.bind(this));
+        task.doGet();
+
+    }
+
+    _onResponseProductRecommendList (data){
+
+        let infoCode = data.infoCode;
+        if (infoCode === 0) {
+            let obj = JSON.parse(data.data);
+            if (obj.errcode === 0) {
+
 
             }else {
                 this._sendShowErrorDialogNotification();
