@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_share_headIcon_info_backgroud",
+    "texture": "f90fc09d-7b36-4ccb-8f6f-1f52a673b569",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      167,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      169,
+      53
+    ]
+  }
+}

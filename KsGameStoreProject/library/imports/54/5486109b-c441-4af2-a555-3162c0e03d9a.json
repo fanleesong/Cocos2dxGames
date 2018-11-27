@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_share_headIcon_time_backgroud",
+    "texture": "31b64fd1-f270-4dab-9dfa-b112a1349074",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      69,
+      35
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      71,
+      37
+    ]
+  }
+}

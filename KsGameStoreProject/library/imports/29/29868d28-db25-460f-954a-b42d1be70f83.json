@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_launcher_schedule_forground",
+    "texture": "9d8e89fe-c23b-4c63-9e75-1957496cbb54",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      570,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      574,
+      32
+    ]
+  }
+}

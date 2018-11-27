@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "90261d99-476a-410f-9cbd-339047eaeee5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "img_world_bar_icon_basketball": {
+      "ver": "1.0.3",
+      "uuid": "1704d924-7c5a-4075-92bc-9d1adf8d1670",
+      "rawTextureUuid": "90261d99-476a-410f-9cbd-339047eaeee5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -0.5,
+      "trimX": 1,
+      "trimY": 2,
+      "width": 103,
+      "height": 102,
+      "rawWidth": 106,
+      "rawHeight": 105,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

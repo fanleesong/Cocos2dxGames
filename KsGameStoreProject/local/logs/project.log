@@ -1,0 +1,63 @@
+2018-11-27T01:40:39.418Z - normal: Load ~/.CocosCreator/settings.json
+2018-11-27T01:40:39.422Z - normal: checking language setting...
+2018-11-27T01:40:39.422Z - normal: Language: zh
+2018-11-27T01:40:40.111Z - success: protocol editor-framework registered
+2018-11-27T01:40:40.111Z - success: protocol app registered
+2018-11-27T01:40:40.111Z - success: protocol theme registered
+2018-11-27T01:40:40.111Z - success: protocol profile registered
+2018-11-27T01:40:40.111Z - success: protocol packages registered
+2018-11-27T01:40:40.114Z - success: protocol unpack registerred
+2018-11-27T01:40:40.114Z - success: protocol disable-commonjs registerred
+2018-11-27T01:40:40.370Z - normal: connected!
+2018-11-27T01:40:40.373Z - normal: Check project /Users/fanlinsong/Documents/KaishuProjects/KsGameStoreProject
+2018-11-27T01:40:40.374Z - normal: Initializing Cocos2d
+2018-11-27T01:40:40.564Z - normal: Initializing Asset Database
+2018-11-27T01:40:40.600Z - success: protocol uuid registerred
+2018-11-27T01:40:40.600Z - success: protocol db registerred
+2018-11-27T01:40:40.601Z - success: protocol thumbnail registerred
+2018-11-27T01:40:40.601Z - normal: Loading editor/builtin packages
+2018-11-27T01:40:40.624Z - success: anysdk loaded
+2018-11-27T01:40:40.756Z - success: assets loaded
+2018-11-27T01:40:40.760Z - success: builder loaded
+2018-11-27T01:40:40.765Z - success: hierarchy loaded
+2018-11-27T01:40:40.770Z - success: inspector loaded
+2018-11-27T01:40:40.771Z - success: keystore loaded
+2018-11-27T01:40:40.776Z - success: node-library loaded
+2018-11-27T01:40:40.777Z - success: package-asset loaded
+2018-11-27T01:40:40.779Z - success: preferences loaded
+2018-11-27T01:40:40.782Z - success: project-exporter loaded
+2018-11-27T01:40:40.797Z - success: project-importer loaded
+2018-11-27T01:40:40.800Z - success: project-settings loaded
+2018-11-27T01:40:40.804Z - success: ui-kit loaded
+2018-11-27T01:40:40.809Z - success: ui-grid loaded
+2018-11-27T01:40:40.813Z - success: scene loaded
+2018-11-27T01:40:40.814Z - success: sprite-editor loaded
+2018-11-27T01:40:40.819Z - success: store loaded
+2018-11-27T01:40:40.824Z - success: timeline loaded
+2018-11-27T01:40:40.824Z - normal: Loading builtin packages
+2018-11-27T01:40:40.830Z - success: asset-db-debugger loaded
+2018-11-27T01:40:40.830Z - success: color-picker loaded
+2018-11-27T01:40:40.836Z - success: console loaded
+2018-11-27T01:40:40.839Z - success: package-manager loaded
+2018-11-27T01:40:40.844Z - success: sdkbox loaded
+2018-11-27T01:40:40.848Z - success: tester loaded
+2018-11-27T01:40:40.853Z - success: ui-kit-preview-extra loaded
+2018-11-27T01:40:40.857Z - success: ui-kit-preview loaded
+2018-11-27T01:40:40.860Z - success: ui-tree loaded
+2018-11-27T01:40:41.720Z - normal: Initializing project /Users/fanlinsong/Documents/KaishuProjects/KsGameStoreProject
+2018-11-27T01:40:41.723Z - normal: Loading packages
+2018-11-27T01:40:41.738Z - success: clean loaded
+2018-11-27T01:40:41.744Z - success: consolerx loaded
+2018-11-27T01:40:41.753Z - normal: [LuaCPP Support] version 0.4
+2018-11-27T01:40:41.754Z - success: creator-luacpp-support loaded
+2018-11-27T01:40:41.760Z - success: hot-update-tools loaded
+2018-11-27T01:40:41.765Z - normal: package load
+2018-11-27T01:40:41.766Z - success: json-lint loaded
+2018-11-27T01:40:41.771Z - success: quick-open loaded
+2018-11-27T01:40:42.088Z - success: quick-preview loaded
+2018-11-27T01:40:42.092Z - success: resource loaded
+2018-11-27T01:40:42.180Z - success: unpack-textureatlas loaded
+2018-11-27T01:40:42.180Z - normal: Watching packages
+2018-11-27T01:40:42.263Z - normal: Run Application
+2018-11-27T01:40:43.382Z - success: preview server running at http://localhost:7456
+2018-11-27T01:40:48.680Z - normal: 1.6.2

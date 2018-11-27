@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_share_back",
+    "texture": "a71aa08b-1724-40eb-a124-a18746b07065",
+    "atlas": "",
+    "rect": [
+      8,
+      8,
+      63,
+      65
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      80,
+      80
+    ]
+  }
+}

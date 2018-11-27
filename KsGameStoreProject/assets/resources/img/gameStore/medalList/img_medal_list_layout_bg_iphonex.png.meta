@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "995c5edf-e782-4b95-b168-d2168ab4d082",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "img_medal_list_layout_bg_iphonex": {
+      "ver": "1.0.3",
+      "uuid": "e70e375c-b1c9-42ad-937b-ec14af03d1aa",
+      "rawTextureUuid": "995c5edf-e782-4b95-b168-d2168ab4d082",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 2.5,
+      "trimX": 10,
+      "trimY": 9,
+      "width": 687,
+      "height": 938,
+      "rawWidth": 706,
+      "rawHeight": 961,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

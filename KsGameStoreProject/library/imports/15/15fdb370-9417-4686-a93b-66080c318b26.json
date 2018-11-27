@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_share_setting_circle",
+    "texture": "b13851b7-1549-4582-ad80-7eeda5ef6613",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      83,
+      79
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      83,
+      79
+    ]
+  }
+}

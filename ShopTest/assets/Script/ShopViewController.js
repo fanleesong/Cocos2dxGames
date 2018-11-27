@@ -12,13 +12,14 @@ cc.Class({
         _positionAll: [],
         pageControlRedNode : cc.Texture2D,
         pageControlYellowNode : cc.Texture2D,
+        _curScrollViewPosition: cc.v2(0,0),
 
     },
 
     // use this for initialization
     onLoad: function () {
 
-        // this._registerTouchEvent();
+        this._registerTouchEvent();
         this._initItemData();
         this._initUIBtn();
         this._initPageView();
@@ -69,6 +70,7 @@ cc.Class({
         }
         let pageIndex = this.pageView.getComponent(cc.PageView).getCurrentPageIndex();
         cc.find('pageCode', this.node).getComponent(cc.Label).string = `PageView自动翻页>>>>第 ${pageIndex + 1} 页滚屏`;
+
 
     },
 
@@ -125,7 +127,7 @@ cc.Class({
                 this._positionAll.push(cc.v2(posX, 0));
             }
             content.setPosition(this._positionAll[0]);
-
+//[{"x":1878,"y":0},{"x":1252,"y":0},{"x":626,"y":0},{"x":0,"y":0},{"x":-626,"y":0},{"x":-1252,"y":0},{"x":-1878,"y":0}]
             cc.find("scrollViewLabel", this.node).getComponent(cc.Label).string = "以下ScrollView自动翻页 >>> 第 1 页";
             console.log("子节点数：" + content.childrenCount + "   paddingValue:  " + paddingValue + "  allWidth: " + allWidth + "\n->Position:   " + JSON.stringify(this._positionAll));
 
@@ -136,6 +138,7 @@ cc.Class({
 
     },
 
+    //[{"x":1878,"y":0},{"x":1252,"y":0},{"x":626,"y":0},{"x":0,"y":0},{"x":-626,"y":0},{"x":-1252,"y":0},{"x":-1878,"y":0}]
     scrollViewChangeEvent: function (event, custom) {
         // let node = event.node;
         // let content = cc.find("scrollView/view/content", this.node);
@@ -155,6 +158,7 @@ cc.Class({
             let finalPos = this._findPositionByIndex(index);
             // console.log("翻到第：" + (index+1) + " 页     自动切换到的坐标位置： " + JSON.stringify(finalPos));
             this.scrollView.content.runAction(cc.moveTo(0.5, finalPos));
+            this._curScrollViewPosition = finalPos;
             this._setScrollViewPageLight(index);//底部pageControl 处理
             cc.find("scrollViewLabel", this.node).getComponent(cc.Label).string = "以下ScrollView自动翻页 >>> 第 " + (index + 1) + " 页";
         }, 3);
@@ -169,9 +173,7 @@ cc.Class({
     },
 
     _findPositionByIndex: function (index) {
-        if (index >= 0 && index < this.scrollView.content.childrenCount) {
-            return this._positionAll[index];
-        }
+        if (index >= 0 && index < this.scrollView.content.childrenCount) return this._positionAll[index];
         return cc.v2(0, 0);
     },
 
@@ -223,14 +225,15 @@ cc.Class({
     _setScrollViewPageLight: function (currentIndex) {
 
         let  pageNode = cc.find("scrollView/pageNode", this.node);
-        for (let i = 0; i < pageNode.childrenCount; i++) {
-            if(currentIndex !== i){
-                let tempNode = pageNode.children[i];
-                tempNode.getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(this.pageControlYellowNode);
+        if(currentIndex <= pageNode.childrenCount && currentIndex >= 0){
+            for (let i = 0; i < pageNode.childrenCount; i++) {
+                if(currentIndex !== i){
+                    let tempNode = pageNode.children[i];
+                    tempNode.getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(this.pageControlYellowNode);
+                }
             }
+            pageNode.children[currentIndex].getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(this.pageControlRedNode);
         }
-        pageNode.children[currentIndex].getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(this.pageControlRedNode);
-
         // cc.loader.loadRes("img/page01", cc.SpriteFrame, function (err, spFrame) {
         //     let node = pageNode.children[currentIndex];
         //     node.getComponent(cc.Sprite).spriteFrame = spFrame;
@@ -306,15 +309,26 @@ cc.Class({
     },
 
     _registerTouchEvent: function () {
+
         let listener = {
             event: cc.EventListener.TOUCH_ONE_BY_ONE,
             swallowTouches: true,
             onTouchBegan: function (touches, event) {
                 return true;
             },
-            onTouchMoved: function (event) {
+            onTouchMoved: function (touches,event) {
             },
-            onTouchEnded: function (event) {
+            onTouchEnded: function (touches,event) {
+
+                //获取手指触摸结束时的位置
+                let location = touches.getLocation();
+                let real = cc.director.getScene().convertToNodeSpace(location);
+                console.log("结束点location： " + JSON.stringify(location)  + "    real:  " + real);
+
+
+
+
+
             }
         };
 
