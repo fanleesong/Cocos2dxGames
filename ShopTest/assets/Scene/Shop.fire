@@ -1915,7 +1915,7 @@
         "__id__": 48
       }
     ],
-    "cancelInnerEvents": true,
+    "cancelInnerEvents": false,
     "_N$horizontalScrollBar": null,
     "_N$verticalScrollBar": null
   },
