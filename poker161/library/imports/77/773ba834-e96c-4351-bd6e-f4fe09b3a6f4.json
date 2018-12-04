@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "poker_beimian",
+    "texture": "0af80b52-46df-41e8-a3cc-d7ab63d60b5e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      472,
+      680
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      472,
+      680
+    ]
+  }
+}

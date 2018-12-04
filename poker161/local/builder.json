@@ -1,0 +1,19 @@
+{
+  "androidStudio": false,
+  "apiLevel": "android-19",
+  "appABIs": [],
+  "buildPath": "./build",
+  "debug": true,
+  "includeEruda": false,
+  "keystoreAlias": "",
+  "keystoreAliasPassword": "",
+  "keystorePassword": "",
+  "keystorePath": "",
+  "platform": "android",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "sourceMaps": false,
+  "template": "default",
+  "useDebugKeystore": true,
+  "vsVersion": "2017"
+}
