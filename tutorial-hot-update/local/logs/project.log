@@ -1,0 +1,1691 @@
+2018-11-23T08:19:31.893Z - normal: Load ~/.CocosCreator/settings.json
+2018-11-23T08:19:31.897Z - normal: checking language setting...
+2018-11-23T08:19:31.897Z - normal: Language: zh
+2018-11-23T08:19:32.543Z - success: protocol editor-framework registered
+2018-11-23T08:19:32.544Z - success: protocol app registered
+2018-11-23T08:19:32.544Z - success: protocol theme registered
+2018-11-23T08:19:32.544Z - success: protocol profile registered
+2018-11-23T08:19:32.544Z - success: protocol packages registered
+2018-11-23T08:19:32.547Z - success: protocol unpack registerred
+2018-11-23T08:19:32.547Z - success: protocol disable-commonjs registerred
+2018-11-23T08:19:32.757Z - normal: connected!
+2018-11-23T08:19:32.758Z - normal: Check project /Users/fanlinsong/Documents/Others/tutorial-hot-update
+2018-11-23T08:19:32.760Z - normal: Initializing Cocos2d
+2018-11-23T08:19:32.958Z - normal: Initializing Asset Database
+2018-11-23T08:19:32.989Z - success: protocol uuid registerred
+2018-11-23T08:19:32.989Z - success: protocol db registerred
+2018-11-23T08:19:32.990Z - success: protocol thumbnail registerred
+2018-11-23T08:19:32.990Z - normal: Loading editor/builtin packages
+2018-11-23T08:19:33.008Z - success: anysdk loaded
+2018-11-23T08:19:33.138Z - success: assets loaded
+2018-11-23T08:19:33.143Z - success: builder loaded
+2018-11-23T08:19:33.147Z - success: hierarchy loaded
+2018-11-23T08:19:33.151Z - success: inspector loaded
+2018-11-23T08:19:33.152Z - success: keystore loaded
+2018-11-23T08:19:33.156Z - success: node-library loaded
+2018-11-23T08:19:33.158Z - success: package-asset loaded
+2018-11-23T08:19:33.160Z - success: preferences loaded
+2018-11-23T08:19:33.162Z - success: project-exporter loaded
+2018-11-23T08:19:33.176Z - success: project-importer loaded
+2018-11-23T08:19:33.182Z - success: project-settings loaded
+2018-11-23T08:19:33.187Z - success: ui-kit loaded
+2018-11-23T08:19:33.192Z - success: ui-grid loaded
+2018-11-23T08:19:33.197Z - success: scene loaded
+2018-11-23T08:19:33.198Z - success: sprite-editor loaded
+2018-11-23T08:19:33.203Z - success: store loaded
+2018-11-23T08:19:33.208Z - success: timeline loaded
+2018-11-23T08:19:33.208Z - normal: Loading builtin packages
+2018-11-23T08:19:33.214Z - success: asset-db-debugger loaded
+2018-11-23T08:19:33.214Z - success: color-picker loaded
+2018-11-23T08:19:33.219Z - success: console loaded
+2018-11-23T08:19:33.223Z - success: package-manager loaded
+2018-11-23T08:19:33.227Z - success: sdkbox loaded
+2018-11-23T08:19:33.231Z - success: tester loaded
+2018-11-23T08:19:33.235Z - success: ui-kit-preview-extra loaded
+2018-11-23T08:19:33.240Z - success: ui-kit-preview loaded
+2018-11-23T08:19:33.243Z - success: ui-tree loaded
+2018-11-23T08:19:34.060Z - normal: Initializing project /Users/fanlinsong/Documents/Others/tutorial-hot-update
+2018-11-23T08:19:34.062Z - normal: Loading packages
+2018-11-23T08:19:34.074Z - success: clean loaded
+2018-11-23T08:19:34.080Z - success: consolerx loaded
+2018-11-23T08:19:34.090Z - normal: [LuaCPP Support] version 0.4
+2018-11-23T08:19:34.091Z - success: creator-luacpp-support loaded
+2018-11-23T08:19:34.097Z - success: hot-update-tools loaded
+2018-11-23T08:19:34.103Z - normal: package load
+2018-11-23T08:19:34.103Z - success: json-lint loaded
+2018-11-23T08:19:34.108Z - success: quick-open loaded
+2018-11-23T08:19:34.382Z - success: quick-preview loaded
+2018-11-23T08:19:34.386Z - success: resource loaded
+2018-11-23T08:19:34.445Z - success: unpack-textureatlas loaded
+2018-11-23T08:19:34.448Z - success: hot-update loaded
+2018-11-23T08:19:34.448Z - normal: Watching packages
+2018-11-23T08:19:34.536Z - normal: Run Application
+2018-11-23T08:19:35.234Z - success: preview server running at http://localhost:7457
+2018-11-23T08:19:39.776Z - normal: 1.6.2
+2018-11-23T08:19:40.414Z - warn: The 'type' attribute of 'AudioMng.winAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:19:40.414Z - warn: The 'type' attribute of 'AudioMng.loseAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:19:40.415Z - warn: The 'type' attribute of 'AudioMng.cardAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:19:40.415Z - warn: The 'type' attribute of 'AudioMng.buttonAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:19:40.415Z - warn: The 'type' attribute of 'AudioMng.chipsAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:19:40.415Z - warn: The 'type' attribute of 'AudioMng.bgm' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:21:57.122Z - warn: The 'type' attribute of 'AudioMng.winAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:21:57.125Z - warn: The 'type' attribute of 'AudioMng.loseAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:21:57.125Z - warn: The 'type' attribute of 'AudioMng.cardAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:21:57.125Z - warn: The 'type' attribute of 'AudioMng.buttonAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:21:57.125Z - warn: The 'type' attribute of 'AudioMng.chipsAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:21:57.126Z - warn: The 'type' attribute of 'AudioMng.bgm' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:22:06.504Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 1000.00
+2018-11-23T08:22:06.505Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-23T08:22:06.514Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:22:06.518Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:22:06.518Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:22:06.585Z - normal: Simulator: 
+2018-11-23T08:22:06.585Z - normal: Simulator: {
+2018-11-23T08:22:06.586Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-23T08:22:06.586Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-23T08:22:06.586Z - normal: Simulator: 	cocos2d.x.version: 1.6.2
+2018-11-23T08:22:06.586Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-23T08:22:06.647Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-23T08:22:06.647Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2018-11-23T08:22:06.648Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-23T08:22:06.648Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-23T08:22:06.648Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-23T08:22:06.648Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-23T08:22:06.648Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-23T08:22:06.648Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-23T08:22:06.649Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-23T08:22:06.649Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-23T08:22:06.649Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-23T08:22:06.649Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-23T08:22:06.649Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-23T08:22:06.649Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-23T08:22:06.650Z - normal: Simulator: }
+2018-11-23T08:22:06.650Z - normal: Simulator: 
+2018-11-23T08:22:06.650Z - normal: Simulator: 
+2018-11-23T08:22:06.650Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-23T08:22:06.653Z - normal: Simulator: Project Config:
+2018-11-23T08:22:06.654Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-23T08:22:06.655Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-23T08:22:06.656Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-23T08:22:06.656Z - normal: Simulator:     frame size: 960 x 640
+2018-11-23T08:22:06.656Z - normal: Simulator:     frame scale: 1.00
+2018-11-23T08:22:06.657Z - normal: Simulator:     show console: NO
+2018-11-23T08:22:06.657Z - normal: Simulator:     write debug log: NO ()
+2018-11-23T08:22:06.657Z - normal: Simulator:     listen: 
+2018-11-23T08:22:06.658Z - normal: Simulator:     debugger: none
+2018-11-23T08:22:06.658Z - normal: Simulator:     add searching path:
+2018-11-23T08:22:06.658Z - normal: Simulator: 
+2018-11-23T08:22:06.658Z - normal: Simulator: 
+2018-11-23T08:22:06.658Z - normal: Simulator: 
+2018-11-23T08:22:06.659Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:22:06.659Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:22:06.661Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:22:06.707Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:22:07.046Z - normal: Simulator: iShow!
+2018-11-23T08:22:07.340Z - normal: Simulator: InitScene: 3.127999999999929ms
+2018-11-23T08:22:07.340Z - normal: Simulator: AutoRelease: 0.30600000000004ms
+2018-11-23T08:22:07.341Z - normal: Simulator: Destroy: 0.2339999999999236ms
+2018-11-23T08:22:07.342Z - normal: Simulator: AttachPersist: 0.0060000000000854925ms
+2018-11-23T08:22:07.406Z - normal: Simulator: Storage path for remote asset : /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/blackjack-remote-asset
+2018-11-23T08:22:07.505Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-11-23T08:22:07.505Z - normal: Simulator: Activate: 163.94399999999996ms
+2018-11-23T08:25:51.448Z - warn: The 'type' attribute of 'AudioMng.winAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:25:51.450Z - warn: The 'type' attribute of 'AudioMng.loseAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:25:51.450Z - warn: The 'type' attribute of 'AudioMng.cardAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:25:51.450Z - warn: The 'type' attribute of 'AudioMng.buttonAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:25:51.451Z - warn: The 'type' attribute of 'AudioMng.chipsAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:25:51.451Z - warn: The 'type' attribute of 'AudioMng.bgm' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:26:28.128Z - warn: The 'type' attribute of 'AudioMng.winAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:26:28.129Z - warn: The 'type' attribute of 'AudioMng.loseAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:26:28.129Z - warn: The 'type' attribute of 'AudioMng.cardAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:26:28.129Z - warn: The 'type' attribute of 'AudioMng.buttonAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:26:28.130Z - warn: The 'type' attribute of 'AudioMng.chipsAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:26:28.130Z - warn: The 'type' attribute of 'AudioMng.bgm' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:27:15.149Z - warn: The 'type' attribute of 'AudioMng.winAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:27:15.149Z - warn: The 'type' attribute of 'AudioMng.loseAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:27:15.149Z - warn: The 'type' attribute of 'AudioMng.cardAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:27:15.150Z - warn: The 'type' attribute of 'AudioMng.buttonAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:27:15.150Z - warn: The 'type' attribute of 'AudioMng.chipsAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:27:15.150Z - warn: The 'type' attribute of 'AudioMng.bgm' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:32:10.254Z - warn: The 'type' attribute of 'AudioMng.winAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:32:10.256Z - warn: The 'type' attribute of 'AudioMng.loseAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:32:10.256Z - warn: The 'type' attribute of 'AudioMng.cardAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:32:10.256Z - warn: The 'type' attribute of 'AudioMng.buttonAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:32:10.257Z - warn: The 'type' attribute of 'AudioMng.chipsAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:32:10.257Z - warn: The 'type' attribute of 'AudioMng.bgm' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:33:12.396Z - warn: The 'type' attribute of 'AudioMng.winAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:33:12.397Z - warn: The 'type' attribute of 'AudioMng.loseAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:33:12.397Z - warn: The 'type' attribute of 'AudioMng.cardAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:33:12.397Z - warn: The 'type' attribute of 'AudioMng.buttonAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:33:12.397Z - warn: The 'type' attribute of 'AudioMng.chipsAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:33:12.397Z - warn: The 'type' attribute of 'AudioMng.bgm' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:33:16.935Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 1000.00
+2018-11-23T08:33:16.935Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-23T08:33:16.943Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:33:16.944Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:33:16.944Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:33:17.018Z - normal: Simulator: 
+2018-11-23T08:33:17.019Z - normal: Simulator: {
+2018-11-23T08:33:17.019Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-23T08:33:17.098Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-23T08:33:17.098Z - normal: Simulator: 	cocos2d.x.version: 1.6.2
+2018-11-23T08:33:17.098Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-23T08:33:17.098Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-23T08:33:17.098Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2018-11-23T08:33:17.099Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-23T08:33:17.099Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-23T08:33:17.099Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-23T08:33:17.099Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-23T08:33:17.099Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-23T08:33:17.100Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-23T08:33:17.100Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-23T08:33:17.100Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-23T08:33:17.100Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-23T08:33:17.100Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-23T08:33:17.101Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-23T08:33:17.101Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-23T08:33:17.101Z - normal: Simulator: }
+2018-11-23T08:33:17.101Z - normal: Simulator: 
+2018-11-23T08:33:17.101Z - normal: Simulator: 
+2018-11-23T08:33:17.102Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-23T08:33:17.103Z - normal: Simulator: Project Config:
+2018-11-23T08:33:17.103Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-23T08:33:17.103Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-23T08:33:17.104Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-23T08:33:17.104Z - normal: Simulator:     frame size: 960 x 640
+2018-11-23T08:33:17.104Z - normal: Simulator:     frame scale: 1.00
+2018-11-23T08:33:17.104Z - normal: Simulator:     show console: NO
+2018-11-23T08:33:17.105Z - normal: Simulator:     write debug log: NO ()
+2018-11-23T08:33:17.105Z - normal: Simulator:     listen: 
+2018-11-23T08:33:17.105Z - normal: Simulator:     debugger: none
+2018-11-23T08:33:17.105Z - normal: Simulator:     add searching path:
+2018-11-23T08:33:17.107Z - normal: Simulator: 
+2018-11-23T08:33:17.107Z - normal: Simulator: 
+2018-11-23T08:33:17.107Z - normal: Simulator: 
+2018-11-23T08:33:17.107Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:33:17.108Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:33:17.108Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:33:17.139Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:33:17.473Z - normal: Simulator: iShow!
+2018-11-23T08:33:17.775Z - normal: Simulator: InitScene: 3.355000000000018ms
+2018-11-23T08:33:17.775Z - normal: Simulator: AutoRelease: 0.44700000000000273ms
+2018-11-23T08:33:17.775Z - normal: Simulator: Destroy: 0.2699999999999818ms
+2018-11-23T08:33:17.776Z - normal: Simulator: AttachPersist: 0.004000000000019099ms
+2018-11-23T08:33:17.836Z - normal: Simulator: Storage path for remote asset : /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/blackjack-remote-asset
+2018-11-23T08:33:17.949Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-11-23T08:33:17.949Z - normal: Simulator: Activate: 173.04500000000007ms
+2018-11-23T08:33:23.514Z - normal: Simulator: V/AudioCache (311): pcm buffer was loaded successfully, total frames: 5184, total read frames: 5184, adjust frames: 0, remainingFrames: 0
+2018-11-23T08:33:23.515Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 382
+2018-11-23T08:33:23.515Z - normal: Simulator: 
+2018-11-23T08:33:23.515Z - normal: Simulator: Stack: checkUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:382:9
+2018-11-23T08:33:23.516Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:33:23.516Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:33:23.516Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:33:23.517Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:33:23.517Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:33:23.517Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:33:23.517Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:33:24.614Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 382
+2018-11-23T08:33:24.614Z - normal: Simulator: 
+2018-11-23T08:33:24.615Z - normal: Simulator: Stack: checkUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:382:9
+2018-11-23T08:33:24.615Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:33:24.615Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:33:24.616Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:33:24.616Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:33:24.616Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:33:24.616Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:33:24.616Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:33:25.541Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 382
+2018-11-23T08:33:25.541Z - normal: Simulator: 
+2018-11-23T08:33:25.541Z - normal: Simulator: Stack: checkUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:382:9
+2018-11-23T08:33:25.542Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:33:25.542Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:33:25.542Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:33:25.542Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:33:25.543Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:33:25.543Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:33:25.543Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:33:25.774Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 382
+2018-11-23T08:33:25.774Z - normal: Simulator: 
+2018-11-23T08:33:25.775Z - normal: Simulator: Stack: checkUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:382:9
+2018-11-23T08:33:25.775Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:33:25.776Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:33:25.776Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:33:25.776Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:33:25.776Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:33:25.777Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:33:25.777Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:33:26.487Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 390
+2018-11-23T08:33:26.488Z - normal: Simulator: 
+2018-11-23T08:33:26.488Z - normal: Simulator: Stack: hotUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:390:13
+2018-11-23T08:33:26.488Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:33:26.488Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:33:26.489Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:33:26.489Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:33:26.490Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:33:26.490Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:33:26.491Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:33:39.234Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 1000.00
+2018-11-23T08:33:39.235Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-23T08:33:39.245Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:33:39.249Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:33:39.249Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:33:39.322Z - normal: Simulator: 
+2018-11-23T08:33:39.323Z - normal: Simulator: {
+2018-11-23T08:33:39.323Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-23T08:33:39.323Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-23T08:33:39.323Z - normal: Simulator: 	cocos2d.x.version: 1.6.2
+2018-11-23T08:33:39.324Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-23T08:33:39.384Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-23T08:33:39.384Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2018-11-23T08:33:39.385Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-23T08:33:39.386Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-23T08:33:39.387Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-23T08:33:39.387Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-23T08:33:39.387Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-23T08:33:39.387Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-23T08:33:39.388Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-23T08:33:39.388Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-23T08:33:39.388Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-23T08:33:39.388Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-23T08:33:39.389Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-23T08:33:39.389Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-23T08:33:39.389Z - normal: Simulator: }
+2018-11-23T08:33:39.390Z - normal: Simulator: 
+2018-11-23T08:33:39.390Z - normal: Simulator: 
+2018-11-23T08:33:39.391Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-23T08:33:39.394Z - normal: Simulator: Project Config:
+2018-11-23T08:33:39.395Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-23T08:33:39.395Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-23T08:33:39.395Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-23T08:33:39.395Z - normal: Simulator:     frame size: 960 x 640
+2018-11-23T08:33:39.396Z - normal: Simulator:     frame scale: 1.00
+2018-11-23T08:33:39.396Z - normal: Simulator:     show console: NO
+2018-11-23T08:33:39.398Z - normal: Simulator:     write debug log: NO ()
+2018-11-23T08:33:39.398Z - normal: Simulator:     listen: 
+2018-11-23T08:33:39.398Z - normal: Simulator:     debugger: none
+2018-11-23T08:33:39.398Z - normal: Simulator:     add searching path:
+2018-11-23T08:33:39.399Z - normal: Simulator: 
+2018-11-23T08:33:39.399Z - normal: Simulator: 
+2018-11-23T08:33:39.399Z - normal: Simulator: 
+2018-11-23T08:33:39.399Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:33:39.399Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:33:39.399Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:33:39.458Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:33:39.758Z - normal: Simulator: iShow!
+2018-11-23T08:33:40.048Z - normal: Simulator: InitScene: 3.3640000000000327ms
+2018-11-23T08:33:40.048Z - normal: Simulator: AutoRelease: 0.2940000000000964ms
+2018-11-23T08:33:40.048Z - normal: Simulator: Destroy: 0.19499999999993634ms
+2018-11-23T08:33:40.048Z - normal: Simulator: AttachPersist: 0.004000000000019099ms
+2018-11-23T08:33:40.114Z - normal: Simulator: Storage path for remote asset : /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/blackjack-remote-asset
+2018-11-23T08:33:40.221Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-11-23T08:33:40.222Z - normal: Simulator: Activate: 167.74799999999993ms
+2018-11-23T08:33:44.130Z - normal: Simulator: V/AudioCache (311): pcm buffer was loaded successfully, total frames: 5184, total read frames: 5184, adjust frames: 0, remainingFrames: 0
+2018-11-23T08:33:44.131Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 390
+2018-11-23T08:33:44.131Z - normal: Simulator: 
+2018-11-23T08:33:44.131Z - normal: Simulator: Stack: hotUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:390:13
+2018-11-23T08:33:44.131Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:33:44.132Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:33:44.132Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:33:44.132Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:33:44.132Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:33:44.132Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:33:44.132Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:33:45.510Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 390
+2018-11-23T08:33:45.511Z - normal: Simulator: 
+2018-11-23T08:33:45.512Z - normal: Simulator: Stack: hotUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:390:13
+2018-11-23T08:33:45.512Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:33:45.512Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:33:45.514Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:33:45.514Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:33:45.514Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:33:45.514Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:33:45.515Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:33:52.528Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 382
+2018-11-23T08:33:52.528Z - normal: Simulator: 
+2018-11-23T08:33:52.529Z - normal: Simulator: Stack: checkUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:382:9
+2018-11-23T08:33:52.530Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:33:52.530Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:33:52.530Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:33:52.530Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:33:52.531Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:33:52.531Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:33:52.531Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:33:52.716Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 382
+2018-11-23T08:33:52.716Z - normal: Simulator: 
+2018-11-23T08:33:52.716Z - normal: Simulator: Stack: checkUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:382:9
+2018-11-23T08:33:52.717Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:33:52.717Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:33:52.717Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:33:52.717Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:33:52.717Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:33:52.718Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:33:52.718Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:33:52.993Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 382
+2018-11-23T08:33:52.994Z - normal: Simulator: 
+2018-11-23T08:33:52.994Z - normal: Simulator: Stack: checkUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:382:9
+2018-11-23T08:33:52.994Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:33:52.995Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:33:52.995Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:33:52.995Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:33:52.995Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:33:52.995Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:33:52.995Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:33:53.559Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 382
+2018-11-23T08:33:53.559Z - normal: Simulator: 
+2018-11-23T08:33:53.560Z - normal: Simulator: Stack: checkUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:382:9
+2018-11-23T08:33:53.560Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:33:53.560Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:33:53.560Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:33:53.560Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:33:53.561Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:33:53.561Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:33:53.561Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:33:53.725Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 382
+2018-11-23T08:33:53.725Z - normal: Simulator: 
+2018-11-23T08:33:53.726Z - normal: Simulator: Stack: checkUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:382:9
+2018-11-23T08:33:53.726Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:33:53.726Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:33:53.726Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:33:53.727Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:33:53.727Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:33:53.727Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:33:53.727Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:33:53.896Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 382
+2018-11-23T08:33:53.896Z - normal: Simulator: 
+2018-11-23T08:33:53.897Z - normal: Simulator: Stack: checkUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:382:9
+2018-11-23T08:33:53.897Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:33:53.897Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:33:53.897Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:33:53.898Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:33:53.898Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:33:53.898Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:33:53.898Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:35:00.014Z - normal: Simulator: HttpClient singleton is nullptr
+2018-11-23T08:35:00.065Z - normal: Simulator: basic_object_finalize 0x17ee26a0 ...
+2018-11-23T08:35:00.066Z - normal: Simulator: jsbindings: finalizing JS object 0x17ee26d0 (WebSocket)
+2018-11-23T08:35:00.067Z - normal: Simulator: jsbindings: finalizing JS object 0x17ee2700 (SocketIO)
+2018-11-23T08:35:00.067Z - normal: Simulator: JavaScriptObjCBridge_finalize 0x17ee2790 ...
+2018-11-23T08:35:00.067Z - normal: Simulator: JavaScriptObjCBridge_finalize 0x17ee2a00 ...
+2018-11-23T08:35:01.293Z - warn: The 'type' attribute of 'AudioMng.winAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:35:01.294Z - warn: The 'type' attribute of 'AudioMng.loseAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:35:01.294Z - warn: The 'type' attribute of 'AudioMng.cardAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:35:01.295Z - warn: The 'type' attribute of 'AudioMng.buttonAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:35:01.295Z - warn: The 'type' attribute of 'AudioMng.chipsAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:35:01.295Z - warn: The 'type' attribute of 'AudioMng.bgm' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:35:11.233Z - normal: Simulator: WORKAREA WIDTH 1440.00, HEIGHT 855.00
+2018-11-23T08:35:11.233Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-23T08:35:11.244Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:35:11.247Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:35:11.247Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:35:11.333Z - normal: Simulator: 
+2018-11-23T08:35:11.334Z - normal: Simulator: {
+2018-11-23T08:35:11.334Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-23T08:35:11.335Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-23T08:35:11.401Z - normal: Simulator: 	cocos2d.x.version: 1.6.2
+2018-11-23T08:35:11.403Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-23T08:35:11.403Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-23T08:35:11.403Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2018-11-23T08:35:11.403Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-23T08:35:11.403Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-23T08:35:11.403Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-23T08:35:11.404Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-23T08:35:11.404Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-23T08:35:11.404Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-23T08:35:11.404Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-23T08:35:11.404Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-23T08:35:11.404Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-23T08:35:11.404Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-23T08:35:11.405Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-23T08:35:11.405Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-23T08:35:11.405Z - normal: Simulator: }
+2018-11-23T08:35:11.405Z - normal: Simulator: 
+2018-11-23T08:35:11.405Z - normal: Simulator: 
+2018-11-23T08:35:11.405Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-23T08:35:11.408Z - normal: Simulator: Project Config:
+2018-11-23T08:35:11.408Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-23T08:35:11.408Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-23T08:35:11.409Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-23T08:35:11.409Z - normal: Simulator:     frame size: 960 x 640
+2018-11-23T08:35:11.409Z - normal: Simulator:     frame scale: 1.00
+2018-11-23T08:35:11.409Z - normal: Simulator:     show console: NO
+2018-11-23T08:35:11.409Z - normal: Simulator:     write debug log: NO ()
+2018-11-23T08:35:11.409Z - normal: Simulator:     listen: 
+2018-11-23T08:35:11.410Z - normal: Simulator:     debugger: none
+2018-11-23T08:35:11.410Z - normal: Simulator:     add searching path:
+2018-11-23T08:35:11.410Z - normal: Simulator: 
+2018-11-23T08:35:11.410Z - normal: Simulator: 
+2018-11-23T08:35:11.411Z - normal: Simulator: 
+2018-11-23T08:35:11.411Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:35:11.411Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:35:11.411Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:35:11.486Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:35:11.763Z - normal: Simulator: iShow!
+2018-11-23T08:35:12.057Z - normal: Simulator: InitScene: 3.2899999999999636ms
+2018-11-23T08:35:12.057Z - normal: Simulator: AutoRelease: 0.27300000000002456ms
+2018-11-23T08:35:12.059Z - normal: Simulator: Destroy: 0.18099999999992633ms
+2018-11-23T08:35:12.059Z - normal: Simulator: AttachPersist: 0.0030000000000427463ms
+2018-11-23T08:35:12.117Z - normal: Simulator: Storage path for remote asset : /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/blackjack-remote-asset
+2018-11-23T08:35:12.222Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-11-23T08:35:12.222Z - normal: Simulator: Activate: 164.84000000000003ms
+2018-11-23T08:35:17.012Z - normal: Simulator: WORKAREA WIDTH 1440.00, HEIGHT 855.00
+2018-11-23T08:35:17.012Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-23T08:35:17.033Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:35:17.033Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:35:17.034Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:35:17.195Z - normal: Simulator: 
+2018-11-23T08:35:17.196Z - normal: Simulator: {
+2018-11-23T08:35:17.196Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-23T08:35:17.196Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-23T08:35:17.196Z - normal: Simulator: 	cocos2d.x.version: 1.6.2
+2018-11-23T08:35:17.196Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-23T08:35:17.197Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-23T08:35:17.197Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2018-11-23T08:35:17.197Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-23T08:35:17.197Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-23T08:35:17.198Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-23T08:35:17.198Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-23T08:35:17.198Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-23T08:35:17.198Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-23T08:35:17.199Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-23T08:35:17.199Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-23T08:35:17.199Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-23T08:35:17.199Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-23T08:35:17.200Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-23T08:35:17.200Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-23T08:35:17.200Z - normal: Simulator: }
+2018-11-23T08:35:17.200Z - normal: Simulator: 
+2018-11-23T08:35:17.201Z - normal: Simulator: 
+2018-11-23T08:35:17.201Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-23T08:35:17.203Z - normal: Simulator: Project Config:
+2018-11-23T08:35:17.203Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-23T08:35:17.204Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-23T08:35:17.204Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-23T08:35:17.205Z - normal: Simulator:     frame size: 960 x 640
+2018-11-23T08:35:17.205Z - normal: Simulator:     frame scale: 1.00
+2018-11-23T08:35:17.205Z - normal: Simulator:     show console: NO
+2018-11-23T08:35:17.205Z - normal: Simulator:     write debug log: NO ()
+2018-11-23T08:35:17.206Z - normal: Simulator:     listen: 
+2018-11-23T08:35:17.206Z - normal: Simulator:     debugger: none
+2018-11-23T08:35:17.206Z - normal: Simulator:     add searching path:
+2018-11-23T08:35:17.207Z - normal: Simulator: 
+2018-11-23T08:35:17.207Z - normal: Simulator: 
+2018-11-23T08:35:17.207Z - normal: Simulator: 
+2018-11-23T08:35:17.208Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:35:17.208Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:35:17.208Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:35:17.261Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:35:17.547Z - normal: Simulator: iShow!
+2018-11-23T08:35:17.840Z - normal: Simulator: InitScene: 3.4080000000000155ms
+2018-11-23T08:35:17.840Z - normal: Simulator: AutoRelease: 0.2980000000000018ms
+2018-11-23T08:35:17.840Z - normal: Simulator: Destroy: 0.19200000000000728ms
+2018-11-23T08:35:17.841Z - normal: Simulator: AttachPersist: 0.0030000000000427463ms
+2018-11-23T08:35:17.901Z - normal: Simulator: Storage path for remote asset : /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/blackjack-remote-asset
+2018-11-23T08:35:18.009Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-11-23T08:35:18.009Z - normal: Simulator: Activate: 168.36700000000008ms
+2018-11-23T08:35:22.737Z - normal: Simulator: V/AudioCache (311): pcm buffer was loaded successfully, total frames: 5184, total read frames: 5184, adjust frames: 0, remainingFrames: 0
+2018-11-23T08:35:22.737Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 382
+2018-11-23T08:35:22.737Z - normal: Simulator: 
+2018-11-23T08:35:22.739Z - normal: Simulator: Stack: checkUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:382:9
+2018-11-23T08:35:22.739Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:35:22.739Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:35:22.739Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:35:22.739Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:35:22.740Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:35:22.740Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:35:22.740Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:41:59.195Z - normal: Simulator: WORKAREA WIDTH 1440.00, HEIGHT 855.00
+2018-11-23T08:41:59.197Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-23T08:41:59.197Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:41:59.197Z - normal: Simulator: 
+2018-11-23T08:41:59.197Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:41:59.198Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:41:59.423Z - normal: Simulator: 
+2018-11-23T08:41:59.424Z - normal: Simulator: {
+2018-11-23T08:41:59.424Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-23T08:41:59.425Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-23T08:41:59.425Z - normal: Simulator: 	cocos2d.x.version: 1.6.2
+2018-11-23T08:41:59.425Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-23T08:41:59.425Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-23T08:41:59.426Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2018-11-23T08:41:59.426Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-23T08:41:59.426Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-23T08:41:59.426Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-23T08:41:59.427Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-23T08:41:59.427Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-23T08:41:59.427Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-23T08:41:59.427Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-23T08:41:59.428Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-23T08:41:59.428Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-23T08:41:59.428Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-23T08:41:59.428Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-23T08:41:59.429Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-23T08:41:59.429Z - normal: Simulator: }
+2018-11-23T08:41:59.429Z - normal: Simulator: 
+2018-11-23T08:41:59.430Z - normal: Simulator: 
+2018-11-23T08:41:59.430Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-23T08:41:59.496Z - normal: Simulator: WORKAREA WIDTH 1440.00, HEIGHT 855.00
+2018-11-23T08:41:59.496Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-23T08:41:59.497Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:41:59.497Z - normal: Simulator: 
+2018-11-23T08:41:59.497Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:41:59.497Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:41:59.498Z - normal: Simulator: Project Config:
+2018-11-23T08:41:59.531Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-23T08:41:59.531Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-23T08:41:59.531Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-23T08:41:59.531Z - normal: Simulator:     frame size: 960 x 640
+2018-11-23T08:41:59.532Z - normal: Simulator:     frame scale: 1.00
+2018-11-23T08:41:59.532Z - normal: Simulator:     show console: NO
+2018-11-23T08:41:59.532Z - normal: Simulator:     write debug log: NO ()
+2018-11-23T08:41:59.533Z - normal: Simulator:     listen: 
+2018-11-23T08:41:59.533Z - normal: Simulator:     debugger: none
+2018-11-23T08:41:59.533Z - normal: Simulator:     add searching path:
+2018-11-23T08:41:59.534Z - normal: Simulator: 
+2018-11-23T08:41:59.534Z - normal: Simulator: 
+2018-11-23T08:41:59.535Z - normal: Simulator: 
+2018-11-23T08:41:59.535Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:41:59.535Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:41:59.536Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:41:59.541Z - normal: Simulator: 
+2018-11-23T08:41:59.542Z - normal: Simulator: {
+2018-11-23T08:41:59.542Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-23T08:41:59.543Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-23T08:41:59.543Z - normal: Simulator: 	cocos2d.x.version: 1.6.2
+2018-11-23T08:41:59.543Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-23T08:41:59.544Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-23T08:41:59.544Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2018-11-23T08:41:59.544Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-23T08:41:59.544Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-23T08:41:59.545Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-23T08:41:59.545Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-23T08:41:59.545Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-23T08:41:59.546Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-23T08:41:59.546Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-23T08:41:59.546Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-23T08:41:59.547Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-23T08:41:59.547Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-23T08:41:59.547Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-23T08:41:59.547Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-23T08:41:59.548Z - normal: Simulator: }
+2018-11-23T08:41:59.548Z - normal: Simulator: 
+2018-11-23T08:41:59.548Z - normal: Simulator: 
+2018-11-23T08:41:59.548Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-23T08:41:59.548Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:41:59.548Z - normal: Simulator: Project Config:
+2018-11-23T08:41:59.549Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-23T08:41:59.549Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-23T08:41:59.549Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-23T08:41:59.549Z - normal: Simulator:     frame size: 960 x 640
+2018-11-23T08:41:59.550Z - normal: Simulator:     frame scale: 1.00
+2018-11-23T08:41:59.550Z - normal: Simulator:     show console: NO
+2018-11-23T08:41:59.550Z - normal: Simulator:     write debug log: NO ()
+2018-11-23T08:41:59.550Z - normal: Simulator:     listen: 
+2018-11-23T08:41:59.551Z - normal: Simulator:     debugger: none
+2018-11-23T08:41:59.551Z - normal: Simulator:     add searching path:
+2018-11-23T08:41:59.551Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:41:59.551Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:41:59.552Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:41:59.627Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:41:59.707Z - warn: The 'type' attribute of 'AudioMng.winAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:41:59.708Z - warn: The 'type' attribute of 'AudioMng.loseAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:41:59.708Z - warn: The 'type' attribute of 'AudioMng.cardAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:41:59.709Z - warn: The 'type' attribute of 'AudioMng.buttonAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:41:59.709Z - warn: The 'type' attribute of 'AudioMng.chipsAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:41:59.709Z - warn: The 'type' attribute of 'AudioMng.bgm' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:41:59.905Z - normal: Simulator: iShow!
+2018-11-23T08:42:00.042Z - normal: Simulator: iShow!
+2018-11-23T08:42:00.132Z - normal: Simulator: Can not find class 'e390cpl5vpL54CRkH0xI8Ul'
+2018-11-23T08:42:00.222Z - normal: Simulator: InitScene: 4.2000000000000455ms
+2018-11-23T08:42:00.223Z - normal: Simulator: AutoRelease: 0.4540000000000646ms
+2018-11-23T08:42:00.223Z - normal: Simulator: Destroy: 0.3590000000000373ms
+2018-11-23T08:42:00.223Z - normal: Simulator: AttachPersist: 0.0060000000000854925ms
+2018-11-23T08:42:00.395Z - normal: Simulator: Can not find class 'e390cpl5vpL54CRkH0xI8Ul'
+2018-11-23T08:42:00.396Z - normal: Simulator: Script attached to 'Canvas' is missing or invalid.
+2018-11-23T08:42:00.398Z - normal: Simulator: InitScene: 3.580000000000041ms
+2018-11-23T08:42:00.399Z - normal: Simulator: AutoRelease: 0.6000000000000227ms
+2018-11-23T08:42:00.399Z - normal: Simulator: Destroy: 0.37600000000009004ms
+2018-11-23T08:42:00.399Z - normal: Simulator: AttachPersist: 0.008000000000038199ms
+2018-11-23T08:42:00.484Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-11-23T08:42:00.484Z - normal: Simulator: Activate: 213.88200000000006ms
+2018-11-23T08:42:00.484Z - normal: Simulator: Script attached to 'Canvas' is missing or invalid.
+2018-11-23T08:42:00.580Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-11-23T08:42:00.580Z - normal: Simulator: Activate: 208.058ms
+2018-11-23T08:42:11.518Z - normal: Simulator: HttpClient singleton is nullptr
+2018-11-23T08:42:11.551Z - normal: Simulator: basic_object_finalize 0x181e26a0 ...
+2018-11-23T08:42:11.551Z - normal: Simulator: jsbindings: finalizing JS object 0x181e26d0 (WebSocket)
+2018-11-23T08:42:11.552Z - normal: Simulator: jsbindings: finalizing JS object 0x181e2700 (SocketIO)
+2018-11-23T08:42:11.552Z - normal: Simulator: JavaScriptObjCBridge_finalize 0x181e2790 ...
+2018-11-23T08:42:11.552Z - normal: Simulator: JavaScriptObjCBridge_finalize 0x181e2a00 ...
+2018-11-23T08:42:38.492Z - normal: Simulator: WORKAREA WIDTH 1440.00, HEIGHT 855.00
+2018-11-23T08:42:38.493Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-23T08:42:38.500Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:42:38.502Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:42:38.502Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:42:38.594Z - normal: Simulator: 
+2018-11-23T08:42:38.594Z - normal: Simulator: {
+2018-11-23T08:42:38.595Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-23T08:42:38.595Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-23T08:42:38.595Z - normal: Simulator: 	cocos2d.x.version: 1.6.2
+2018-11-23T08:42:38.595Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-23T08:42:38.654Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-23T08:42:38.655Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2018-11-23T08:42:38.656Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-23T08:42:38.656Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-23T08:42:38.656Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-23T08:42:38.657Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-23T08:42:38.657Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-23T08:42:38.657Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-23T08:42:38.657Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-23T08:42:38.658Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-23T08:42:38.658Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-23T08:42:38.658Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-23T08:42:38.659Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-23T08:42:38.659Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-23T08:42:38.659Z - normal: Simulator: }
+2018-11-23T08:42:38.660Z - normal: Simulator: 
+2018-11-23T08:42:38.660Z - normal: Simulator: 
+2018-11-23T08:42:38.660Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-23T08:42:38.663Z - normal: Simulator: Project Config:
+2018-11-23T08:42:38.663Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-23T08:42:38.663Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-23T08:42:38.664Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-23T08:42:38.664Z - normal: Simulator:     frame size: 960 x 640
+2018-11-23T08:42:38.664Z - normal: Simulator:     frame scale: 1.00
+2018-11-23T08:42:38.664Z - normal: Simulator:     show console: NO
+2018-11-23T08:42:38.665Z - normal: Simulator:     write debug log: NO ()
+2018-11-23T08:42:38.665Z - normal: Simulator:     listen: 
+2018-11-23T08:42:38.665Z - normal: Simulator:     debugger: none
+2018-11-23T08:42:38.665Z - normal: Simulator:     add searching path:
+2018-11-23T08:42:38.666Z - normal: Simulator: 
+2018-11-23T08:42:38.666Z - normal: Simulator: 
+2018-11-23T08:42:38.666Z - normal: Simulator: 
+2018-11-23T08:42:38.666Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:42:38.667Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:42:38.667Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:42:38.734Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:42:39.063Z - normal: Simulator: iShow!
+2018-11-23T08:42:39.379Z - normal: Simulator: InitScene: 2.9489999999999554ms
+2018-11-23T08:42:39.379Z - normal: Simulator: AutoRelease: 0.35800000000006094ms
+2018-11-23T08:42:39.379Z - normal: Simulator: Destroy: 0.20199999999999818ms
+2018-11-23T08:42:39.380Z - normal: Simulator: AttachPersist: 0.004000000000019099ms
+2018-11-23T08:42:39.445Z - normal: Simulator: Storage path for remote asset : /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/blackjack-remote-asset
+2018-11-23T08:42:39.559Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-11-23T08:42:39.559Z - normal: Simulator: Activate: 177.45500000000004ms
+2018-11-23T08:42:46.394Z - normal: Simulator: WORKAREA WIDTH 1440.00, HEIGHT 855.00
+2018-11-23T08:42:46.394Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-23T08:42:46.402Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:42:46.403Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:42:46.404Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:42:46.492Z - normal: Simulator: 
+2018-11-23T08:42:46.492Z - normal: Simulator: {
+2018-11-23T08:42:46.553Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-23T08:42:46.554Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-23T08:42:46.554Z - normal: Simulator: 	cocos2d.x.version: 1.6.2
+2018-11-23T08:42:46.554Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-23T08:42:46.554Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-23T08:42:46.554Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2018-11-23T08:42:46.554Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-23T08:42:46.555Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-23T08:42:46.555Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-23T08:42:46.555Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-23T08:42:46.555Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-23T08:42:46.555Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-23T08:42:46.556Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-23T08:42:46.556Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-23T08:42:46.556Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-23T08:42:46.556Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-23T08:42:46.557Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-23T08:42:46.557Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-23T08:42:46.557Z - normal: Simulator: }
+2018-11-23T08:42:46.558Z - normal: Simulator: 
+2018-11-23T08:42:46.558Z - normal: Simulator: 
+2018-11-23T08:42:46.558Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-23T08:42:46.561Z - normal: Simulator: Project Config:
+2018-11-23T08:42:46.561Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-23T08:42:46.561Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-23T08:42:46.561Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-23T08:42:46.562Z - normal: Simulator:     frame size: 960 x 640
+2018-11-23T08:42:46.562Z - normal: Simulator:     frame scale: 1.00
+2018-11-23T08:42:46.562Z - normal: Simulator:     show console: NO
+2018-11-23T08:42:46.562Z - normal: Simulator:     write debug log: NO ()
+2018-11-23T08:42:46.563Z - normal: Simulator:     listen: 
+2018-11-23T08:42:46.563Z - normal: Simulator:     debugger: none
+2018-11-23T08:42:46.563Z - normal: Simulator:     add searching path:
+2018-11-23T08:42:46.564Z - normal: Simulator: 
+2018-11-23T08:42:46.564Z - normal: Simulator: 
+2018-11-23T08:42:46.564Z - normal: Simulator: 
+2018-11-23T08:42:46.567Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:42:46.567Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:42:46.568Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:42:46.636Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:42:46.967Z - normal: Simulator: iShow!
+2018-11-23T08:42:47.289Z - normal: Simulator: InitScene: 2.9700000000000273ms
+2018-11-23T08:42:47.290Z - normal: Simulator: AutoRelease: 0.44499999999993634ms
+2018-11-23T08:42:47.290Z - normal: Simulator: Destroy: 0.5070000000000618ms
+2018-11-23T08:42:47.299Z - normal: Simulator: AttachPersist: 0.014000000000010004ms
+2018-11-23T08:42:47.358Z - normal: Simulator: Storage path for remote asset : /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/blackjack-remote-asset
+2018-11-23T08:42:47.475Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-11-23T08:42:47.475Z - normal: Simulator: Activate: 186.04499999999996ms
+2018-11-23T08:42:54.892Z - normal: Simulator: V/AudioCache (311): pcm buffer was loaded successfully, total frames: 5184, total read frames: 5184, adjust frames: 0, remainingFrames: 0
+2018-11-23T08:42:54.892Z - normal: Simulator: JS Exception: this._am.setEventCallback is not a function, file: /Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js, lineno: 394
+2018-11-23T08:42:54.893Z - normal: Simulator: 
+2018-11-23T08:42:54.893Z - normal: Simulator: Stack: hotUpdate@/Users/fanlinsong/Documents/Others/tutorial-hot-update/temp/quick-scripts/assets/scripts/module/HotUpdate.js:394:13
+2018-11-23T08:42:54.893Z - normal: Simulator: [54]</cc.Component.EventHandler<.emit@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9189:9
+2018-11-23T08:42:54.893Z - normal: Simulator: [54]</cc.Component.EventHandler<.statics.emitEvents@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:9174:13
+2018-11-23T08:42:54.894Z - normal: Simulator: [51]</Button<._onTouchEnded@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:8779:11
+2018-11-23T08:42:54.894Z - normal: Simulator: [83]</EventListeners.prototype.invoke@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14036:15
+2018-11-23T08:42:54.894Z - normal: Simulator: [84]</_doDispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14080:76
+2018-11-23T08:42:54.894Z - normal: Simulator: [84]</proto.dispatchEvent@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:14155:7
+2018-11-23T08:42:54.894Z - normal: Simulator: [23]</_touchEndHandler@/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/src/jsb_polyfill.js:5656:7
+2018-11-23T08:48:10.820Z - warn: The 'type' attribute of 'AudioMng.winAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:48:10.822Z - warn: The 'type' attribute of 'AudioMng.loseAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:48:10.823Z - warn: The 'type' attribute of 'AudioMng.cardAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:48:10.823Z - warn: The 'type' attribute of 'AudioMng.buttonAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:48:10.823Z - warn: The 'type' attribute of 'AudioMng.chipsAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:48:10.823Z - warn: The 'type' attribute of 'AudioMng.bgm' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T08:48:12.273Z - normal: Simulator: WORKAREA WIDTH 1440.00, HEIGHT 855.00
+2018-11-23T08:48:12.274Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-23T08:48:12.283Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:48:12.284Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:48:12.285Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:48:12.366Z - normal: Simulator: 
+2018-11-23T08:48:12.366Z - normal: Simulator: {
+2018-11-23T08:48:12.366Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-23T08:48:12.367Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-23T08:48:12.367Z - normal: Simulator: 	cocos2d.x.version: 1.6.2
+2018-11-23T08:48:12.367Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-23T08:48:12.367Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-23T08:48:12.367Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2018-11-23T08:48:12.449Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-23T08:48:12.450Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-23T08:48:12.451Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-23T08:48:12.451Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-23T08:48:12.451Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-23T08:48:12.451Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-23T08:48:12.452Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-23T08:48:12.452Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-23T08:48:12.452Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-23T08:48:12.453Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-23T08:48:12.453Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-23T08:48:12.453Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-23T08:48:12.453Z - normal: Simulator: }
+2018-11-23T08:48:12.454Z - normal: Simulator: 
+2018-11-23T08:48:12.454Z - normal: Simulator: 
+2018-11-23T08:48:12.454Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-23T08:48:12.459Z - normal: Simulator: Project Config:
+2018-11-23T08:48:12.459Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-23T08:48:12.460Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-23T08:48:12.460Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-23T08:48:12.461Z - normal: Simulator:     frame size: 960 x 640
+2018-11-23T08:48:12.461Z - normal: Simulator:     frame scale: 1.00
+2018-11-23T08:48:12.461Z - normal: Simulator:     show console: NO
+2018-11-23T08:48:12.462Z - normal: Simulator:     write debug log: NO ()
+2018-11-23T08:48:12.462Z - normal: Simulator:     listen: 
+2018-11-23T08:48:12.462Z - normal: Simulator:     debugger: none
+2018-11-23T08:48:12.462Z - normal: Simulator:     add searching path:
+2018-11-23T08:48:12.462Z - normal: Simulator: 
+2018-11-23T08:48:12.463Z - normal: Simulator: 
+2018-11-23T08:48:12.463Z - normal: Simulator: 
+2018-11-23T08:48:12.463Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:48:12.463Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:48:12.464Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:48:12.558Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:48:12.889Z - normal: Simulator: iShow!
+2018-11-23T08:48:13.259Z - normal: Simulator: InitScene: 5.274999999999977ms
+2018-11-23T08:48:13.260Z - normal: Simulator: AutoRelease: 0.5230000000000246ms
+2018-11-23T08:48:13.262Z - normal: Simulator: Destroy: 0.28300000000001546ms
+2018-11-23T08:48:13.263Z - normal: Simulator: AttachPersist: 0.005999999999971806ms
+2018-11-23T08:48:13.342Z - normal: Simulator: Storage path for remote asset : /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/blackjack-remote-asset
+2018-11-23T08:48:13.458Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-11-23T08:48:13.458Z - normal: Simulator: Activate: 198.289ms
+2018-11-23T08:48:15.801Z - normal: Simulator: V/AudioCache (311): pcm buffer was loaded successfully, total frames: 5184, total read frames: 5184, adjust frames: 0, remainingFrames: 0
+2018-11-23T08:48:15.801Z - normal: Simulator: Code: 5
+2018-11-23T08:48:15.802Z - normal: Simulator: JS Custom Version Compare: version A is 1.10, version B is 2.0
+2018-11-23T08:48:15.802Z - normal: Simulator: Code: 3
+2018-11-23T08:48:19.715Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.717Z - normal: Simulator: JS Custom Version Compare: version A is 1.10, version B is 2.0
+2018-11-23T08:48:19.717Z - normal: Simulator: Code: 3
+2018-11-23T08:48:19.724Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.771Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.771Z - normal: Simulator: Code: 6
+2018-11-23T08:48:19.817Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.818Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.818Z - normal: Simulator: Code: 6
+2018-11-23T08:48:19.818Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.819Z - normal: Simulator: Code: 6
+2018-11-23T08:48:19.829Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.830Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.830Z - normal: Simulator: Code: 6
+2018-11-23T08:48:19.851Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.851Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.851Z - normal: Simulator: Code: 6
+2018-11-23T08:48:19.883Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.884Z - normal: Simulator: Code: 6
+2018-11-23T08:48:19.918Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.919Z - normal: Simulator: Code: 6
+2018-11-23T08:48:19.921Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.921Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.921Z - normal: Simulator: Code: 6
+2018-11-23T08:48:19.933Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.933Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.934Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.934Z - normal: Simulator: Code: 6
+2018-11-23T08:48:19.968Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.969Z - normal: Simulator: Code: 6
+2018-11-23T08:48:19.978Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.979Z - normal: Simulator: Code: 6
+2018-11-23T08:48:19.989Z - normal: Simulator: Code: 5
+2018-11-23T08:48:19.990Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.011Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.011Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.011Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.030Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.031Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.031Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.033Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.034Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.061Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.063Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.064Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.064Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.066Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.067Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.106Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.107Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.107Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.107Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.112Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.126Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.126Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.128Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.128Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.140Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.141Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.189Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.190Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.197Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.203Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.203Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.223Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.225Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.251Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.251Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.252Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.273Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.274Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.279Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.279Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.298Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.299Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.312Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.314Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.315Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.353Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.357Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.357Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.370Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.371Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.387Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.387Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.387Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.425Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.425Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.428Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.444Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.445Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.446Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.446Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.496Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.496Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.509Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.509Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.521Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.522Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.527Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.527Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.538Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.538Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.559Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.563Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.564Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.605Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.624Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.631Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.634Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.635Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.656Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.656Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.674Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.674Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.675Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.693Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.693Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.711Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.712Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.712Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.712Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.712Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.730Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.730Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.731Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.747Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.748Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.785Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.785Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.785Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.787Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.788Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.809Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.809Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.810Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.810Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.820Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.820Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.822Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.823Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.823Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.836Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.836Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.859Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.860Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.879Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.879Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.892Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.892Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.911Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.911Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.919Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.920Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.943Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.949Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.949Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.961Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.961Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.978Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.978Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.978Z - normal: Simulator: Code: 6
+2018-11-23T08:48:20.996Z - normal: Simulator: Code: 5
+2018-11-23T08:48:20.996Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.016Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.017Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.017Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.032Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.035Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.073Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.073Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.074Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.074Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.074Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.077Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.078Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.078Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.097Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.098Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.099Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.102Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.116Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.116Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.129Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.129Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.148Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.149Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.149Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.163Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.164Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.165Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.196Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.196Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.197Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.211Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.211Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.214Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.214Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.214Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.215Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.232Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.233Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.233Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.233Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.234Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.249Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.249Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.268Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.282Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.298Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.298Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.313Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.314Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.329Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.330Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.330Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.331Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.331Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.331Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.332Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.332Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.354Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.355Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.358Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.374Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.374Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.377Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.391Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.391Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.410Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.413Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.414Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.414Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.431Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.432Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.432Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.432Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.432Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.447Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.448Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.448Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.468Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.468Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.469Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.504Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.504Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.505Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.507Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.508Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.520Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.538Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.539Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.539Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.540Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.561Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.561Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.561Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.573Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.573Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.573Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.579Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.579Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.579Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.598Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.598Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.598Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.673Z - normal: Simulator: Code: 5
+2018-11-23T08:48:21.673Z - normal: Simulator: Code: 6
+2018-11-23T08:48:21.717Z - normal: Simulator: Code: 8
+2018-11-23T08:48:21.718Z - normal: Simulator: ["/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/blackjack-remote-asset/"]
+2018-11-23T08:48:21.763Z - normal: Simulator: V/AudioPlayer (315): Exit rotate buffer thread ...
+2018-11-23T08:48:21.763Z - normal: Simulator: HttpClient singleton is nullptr
+2018-11-23T08:48:21.818Z - normal: Simulator: basic_object_finalize 0xace26a0 ...
+2018-11-23T08:48:21.818Z - normal: Simulator: jsbindings: finalizing JS object 0xace26d0 (WebSocket)
+2018-11-23T08:48:21.818Z - normal: Simulator: jsbindings: finalizing JS object 0xace2700 (SocketIO)
+2018-11-23T08:48:21.818Z - normal: Simulator: JavaScriptObjCBridge_finalize 0xace2790 ...
+2018-11-23T08:48:21.819Z - normal: Simulator: JavaScriptObjCBridge_finalize 0xace2a00 ...
+2018-11-23T08:48:21.828Z - normal: Simulator: RuntimeEngine already has Runtime type 2.
+2018-11-23T08:48:21.828Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:48:21.828Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:48:21.828Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:48:21.902Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:48:22.162Z - normal: Simulator: iShow!
+2018-11-23T08:48:22.331Z - normal: Simulator: InitScene: 2.910000000000082ms
+2018-11-23T08:48:22.331Z - normal: Simulator: AutoRelease: 0.38999999999998636ms
+2018-11-23T08:48:22.332Z - normal: Simulator: Destroy: 0.3250000000000455ms
+2018-11-23T08:48:22.332Z - normal: Simulator: AttachPersist: 0.007000000000061846ms
+2018-11-23T08:48:22.356Z - normal: Simulator: Storage path for remote asset : /Users/fanlinsong/Documents/blackjack-remote-asset
+2018-11-23T08:48:22.426Z - normal: Simulator: Activate: 92.231ms
+2018-11-23T08:48:29.574Z - normal: Simulator: loadScene: Can not load the scene 'table' because it was not in the build settings before playing.
+2018-11-23T08:48:30.326Z - normal: Simulator: loadScene: Can not load the scene 'table' because it was not in the build settings before playing.
+2018-11-23T08:48:30.923Z - normal: Simulator: loadScene: Can not load the scene 'table' because it was not in the build settings before playing.
+2018-11-23T08:49:12.762Z - normal: Simulator: Code: 5
+2018-11-23T08:49:12.762Z - normal: Simulator: JS Custom Version Compare: version A is 1.10, version B is 2.0
+2018-11-23T08:49:12.763Z - normal: Simulator: Code: 3
+2018-11-23T08:49:24.832Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.833Z - normal: Simulator: JS Custom Version Compare: version A is 1.10, version B is 2.0
+2018-11-23T08:49:24.833Z - normal: Simulator: Code: 3
+2018-11-23T08:49:24.834Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.926Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.927Z - normal: Simulator: Code: 6
+2018-11-23T08:49:24.927Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.927Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.927Z - normal: Simulator: Code: 6
+2018-11-23T08:49:24.928Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.928Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.928Z - normal: Simulator: Code: 6
+2018-11-23T08:49:24.931Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.932Z - normal: Simulator: Code: 6
+2018-11-23T08:49:24.936Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.941Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.946Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.958Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.958Z - normal: Simulator: Code: 6
+2018-11-23T08:49:24.976Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.977Z - normal: Simulator: Code: 6
+2018-11-23T08:49:24.997Z - normal: Simulator: Code: 5
+2018-11-23T08:49:24.998Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.010Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.010Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.029Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.029Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.055Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.055Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.055Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.070Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.071Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.072Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.073Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.090Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.091Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.119Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.119Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.130Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.130Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.130Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.132Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.133Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.176Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.177Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.180Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.181Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.181Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.202Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.203Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.203Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.235Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.235Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.236Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.236Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.236Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.236Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.269Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.269Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.269Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.270Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.270Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.283Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.323Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.324Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.327Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.328Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.328Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.337Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.338Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.350Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.350Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.351Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.370Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.371Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.372Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.372Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.391Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.391Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.413Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.414Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.414Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.436Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.437Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.437Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.484Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.484Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.484Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.485Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.494Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.495Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.495Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.507Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.508Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.524Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.524Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.550Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.551Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.551Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.553Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.554Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.566Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.567Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.567Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.584Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.587Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.587Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.604Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.604Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.604Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.643Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.643Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.648Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.649Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.660Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.661Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.661Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.668Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.668Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.668Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.684Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.684Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.684Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.715Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.715Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.733Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.733Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.733Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.748Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.748Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.755Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.789Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.790Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.790Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.791Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.791Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.795Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.795Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.812Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.813Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.859Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.860Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.860Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.860Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.861Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.880Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.881Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.893Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.894Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.915Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.926Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.927Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.931Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.962Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.962Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.962Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.963Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.963Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.981Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.982Z - normal: Simulator: Code: 6
+2018-11-23T08:49:25.985Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.985Z - normal: Simulator: Code: 5
+2018-11-23T08:49:25.986Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.022Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.023Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.045Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.046Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.061Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.072Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.073Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.088Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.088Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.089Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.110Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.110Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.134Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.134Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.134Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.135Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.135Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.171Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.171Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.171Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.172Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.174Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.175Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.219Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.219Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.220Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.220Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.220Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.220Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.232Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.232Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.232Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.247Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.250Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.277Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.277Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.291Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.292Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.292Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.310Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.311Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.311Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.318Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.332Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.333Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.349Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.350Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.350Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.369Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.369Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.387Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.387Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.387Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.420Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.421Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.421Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.426Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.426Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.426Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.460Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.460Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.461Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.477Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.477Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.478Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.478Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.479Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.479Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.502Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.503Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.506Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.508Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.508Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.517Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.528Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.528Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.551Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.551Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.558Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.559Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.559Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.574Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.575Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.575Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.601Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.601Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.602Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.609Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.609Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.626Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.628Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.629Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.660Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.660Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.661Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.664Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.664Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.681Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.682Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.682Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.683Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.719Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.720Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.781Z - normal: Simulator: Code: 5
+2018-11-23T08:49:26.781Z - normal: Simulator: Code: 6
+2018-11-23T08:49:26.824Z - normal: Simulator: Code: 8
+2018-11-23T08:49:26.824Z - normal: Simulator: ["/Users/fanlinsong/Documents/blackjack-remote-asset/"]
+2018-11-23T08:49:26.869Z - normal: Simulator: V/AudioPlayer (315): Exit rotate buffer thread ...
+2018-11-23T08:49:26.870Z - normal: Simulator: HttpClient singleton is nullptr
+2018-11-23T08:49:26.910Z - normal: Simulator: basic_object_finalize 0xade26a0 ...
+2018-11-23T08:49:26.910Z - normal: Simulator: jsbindings: finalizing JS object 0xade26d0 (WebSocket)
+2018-11-23T08:49:26.910Z - normal: Simulator: jsbindings: finalizing JS object 0xade2700 (SocketIO)
+2018-11-23T08:49:26.910Z - normal: Simulator: JavaScriptObjCBridge_finalize 0xade2790 ...
+2018-11-23T08:49:26.911Z - normal: Simulator: JavaScriptObjCBridge_finalize 0xade2a00 ...
+2018-11-23T08:49:26.932Z - normal: Simulator: RuntimeEngine already has Runtime type 2.
+2018-11-23T08:49:26.932Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:49:26.932Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:49:26.932Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:49:26.998Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:49:27.270Z - normal: Simulator: iShow!
+2018-11-23T08:49:27.431Z - normal: Simulator: InitScene: 3.343999999999994ms
+2018-11-23T08:49:27.432Z - normal: Simulator: AutoRelease: 0.39200000000005275ms
+2018-11-23T08:49:27.432Z - normal: Simulator: Destroy: 0.24399999999997135ms
+2018-11-23T08:49:27.432Z - normal: Simulator: AttachPersist: 0.0030000000000427463ms
+2018-11-23T08:49:27.459Z - normal: Simulator: Storage path for remote asset : /Users/fanlinsong/Documents/blackjack-remote-asset
+2018-11-23T08:49:27.530Z - normal: Simulator: Activate: 98.505ms
+2018-11-23T08:49:47.659Z - normal: Simulator: JS Custom Version Compare: version A is 1.10, version B is 2.0
+2018-11-23T08:49:49.602Z - normal: Simulator: JS Custom Version Compare: version A is 2.0, version B is 2.0
+2018-11-23T08:51:16.995Z - normal: Simulator: HttpClient singleton is nullptr
+2018-11-23T08:51:17.027Z - normal: Simulator: basic_object_finalize 0xb5e26a0 ...
+2018-11-23T08:51:17.028Z - normal: Simulator: jsbindings: finalizing JS object 0xb5e26d0 (WebSocket)
+2018-11-23T08:51:17.029Z - normal: Simulator: jsbindings: finalizing JS object 0xb5e2700 (SocketIO)
+2018-11-23T08:51:17.030Z - normal: Simulator: JavaScriptObjCBridge_finalize 0xb5e2790 ...
+2018-11-23T08:51:17.030Z - normal: Simulator: JavaScriptObjCBridge_finalize 0xb5e2a00 ...
+2018-11-23T08:51:19.907Z - normal: Simulator: WORKAREA WIDTH 1440.00, HEIGHT 855.00
+2018-11-23T08:51:19.907Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-23T08:51:19.917Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:51:19.921Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:51:19.922Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:51:20.014Z - normal: Simulator: 
+2018-11-23T08:51:20.021Z - normal: Simulator: {
+2018-11-23T08:51:20.021Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-23T08:51:20.021Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-23T08:51:20.022Z - normal: Simulator: 	cocos2d.x.version: 1.6.2
+2018-11-23T08:51:20.022Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-23T08:51:20.022Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-23T08:51:20.082Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2018-11-23T08:51:20.082Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-23T08:51:20.082Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-23T08:51:20.083Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-23T08:51:20.083Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-23T08:51:20.083Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-23T08:51:20.083Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-23T08:51:20.083Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-23T08:51:20.084Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-23T08:51:20.084Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-23T08:51:20.084Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-23T08:51:20.085Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-23T08:51:20.085Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-23T08:51:20.085Z - normal: Simulator: }
+2018-11-23T08:51:20.085Z - normal: Simulator: 
+2018-11-23T08:51:20.086Z - normal: Simulator: 
+2018-11-23T08:51:20.086Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-23T08:51:20.088Z - normal: Simulator: Project Config:
+2018-11-23T08:51:20.088Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-23T08:51:20.089Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-23T08:51:20.089Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-23T08:51:20.089Z - normal: Simulator:     frame size: 960 x 640
+2018-11-23T08:51:20.089Z - normal: Simulator:     frame scale: 1.00
+2018-11-23T08:51:20.089Z - normal: Simulator:     show console: NO
+2018-11-23T08:51:20.090Z - normal: Simulator:     write debug log: NO ()
+2018-11-23T08:51:20.090Z - normal: Simulator:     listen: 
+2018-11-23T08:51:20.090Z - normal: Simulator:     debugger: none
+2018-11-23T08:51:20.090Z - normal: Simulator:     add searching path:
+2018-11-23T08:51:20.091Z - normal: Simulator: 
+2018-11-23T08:51:20.091Z - normal: Simulator: 
+2018-11-23T08:51:20.091Z - normal: Simulator: 
+2018-11-23T08:51:20.091Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:51:20.094Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:51:20.094Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:51:20.165Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:51:20.486Z - normal: Simulator: iShow!
+2018-11-23T08:51:20.812Z - normal: Simulator: InitScene: 3.380999999999972ms
+2018-11-23T08:51:20.812Z - normal: Simulator: AutoRelease: 0.32600000000002183ms
+2018-11-23T08:51:20.813Z - normal: Simulator: Destroy: 0.18399999999996908ms
+2018-11-23T08:51:20.813Z - normal: Simulator: AttachPersist: 0.0030000000000427463ms
+2018-11-23T08:51:20.879Z - normal: Simulator: Storage path for remote asset : /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/blackjack-remote-asset
+2018-11-23T08:51:20.998Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-11-23T08:51:20.999Z - normal: Simulator: Activate: 185.75600000000009ms
+2018-11-23T08:51:38.460Z - normal: Simulator: V/AudioCache (311): pcm buffer was loaded successfully, total frames: 5184, total read frames: 5184, adjust frames: 0, remainingFrames: 0
+2018-11-23T08:51:38.460Z - normal: Simulator: JS Custom Version Compare: version A is 1.10, version B is 2.0
+2018-11-23T08:51:38.493Z - normal: Simulator: Code: 5
+2018-11-23T08:51:38.493Z - normal: Simulator: JS Custom Version Compare: version A is 2.0, version B is 2.0
+2018-11-23T08:51:38.493Z - normal: Simulator: Code: 4
+2018-11-23T08:53:05.375Z - normal: Simulator: V/AudioCache (311): pcm buffer was loaded successfully, total frames: 5184, total read frames: 5184, adjust frames: 0, remainingFrames: 0
+2018-11-23T08:53:05.376Z - normal: Simulator: HttpClient singleton is nullptr
+2018-11-23T08:53:05.415Z - normal: Simulator: basic_object_finalize 0x174e26a0 ...
+2018-11-23T08:53:05.416Z - normal: Simulator: jsbindings: finalizing JS object 0x174e26d0 (WebSocket)
+2018-11-23T08:53:05.416Z - normal: Simulator: jsbindings: finalizing JS object 0x174e2700 (SocketIO)
+2018-11-23T08:53:05.416Z - normal: Simulator: JavaScriptObjCBridge_finalize 0x174e2790 ...
+2018-11-23T08:53:05.416Z - normal: Simulator: JavaScriptObjCBridge_finalize 0x174e2a00 ...
+2018-11-23T08:53:06.699Z - normal: Simulator: HttpClient singleton is nullptr
+2018-11-23T08:53:06.728Z - normal: Simulator: basic_object_finalize 0x13de26a0 ...
+2018-11-23T08:53:06.729Z - normal: Simulator: jsbindings: finalizing JS object 0x13de26d0 (WebSocket)
+2018-11-23T08:53:06.729Z - normal: Simulator: jsbindings: finalizing JS object 0x13de2700 (SocketIO)
+2018-11-23T08:53:06.729Z - normal: Simulator: JavaScriptObjCBridge_finalize 0x13de2790 ...
+2018-11-23T08:53:06.730Z - normal: Simulator: JavaScriptObjCBridge_finalize 0x13de2a00 ...
+2018-11-23T08:53:09.849Z - normal: Simulator: WORKAREA WIDTH 1440.00, HEIGHT 855.00
+2018-11-23T08:53:09.850Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-23T08:53:09.858Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:53:09.860Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:53:09.860Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T08:53:10.001Z - normal: Simulator: 
+2018-11-23T08:53:10.001Z - normal: Simulator: {
+2018-11-23T08:53:10.001Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-23T08:53:10.002Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-23T08:53:10.002Z - normal: Simulator: 	cocos2d.x.version: 1.6.2
+2018-11-23T08:53:10.002Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-23T08:53:10.002Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-23T08:53:10.003Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2018-11-23T08:53:10.003Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-23T08:53:10.003Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-23T08:53:10.003Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-23T08:53:10.003Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-23T08:53:10.003Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-23T08:53:10.004Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-23T08:53:10.004Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-23T08:53:10.004Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-23T08:53:10.004Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-23T08:53:10.004Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-23T08:53:10.005Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-23T08:53:10.005Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-23T08:53:10.005Z - normal: Simulator: }
+2018-11-23T08:53:10.005Z - normal: Simulator: 
+2018-11-23T08:53:10.005Z - normal: Simulator: 
+2018-11-23T08:53:10.005Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-23T08:53:10.025Z - normal: Simulator: Project Config:
+2018-11-23T08:53:10.026Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-23T08:53:10.026Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-23T08:53:10.026Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-23T08:53:10.026Z - normal: Simulator:     frame size: 960 x 640
+2018-11-23T08:53:10.027Z - normal: Simulator:     frame scale: 1.00
+2018-11-23T08:53:10.027Z - normal: Simulator:     show console: NO
+2018-11-23T08:53:10.027Z - normal: Simulator:     write debug log: NO ()
+2018-11-23T08:53:10.027Z - normal: Simulator:     listen: 
+2018-11-23T08:53:10.027Z - normal: Simulator:     debugger: none
+2018-11-23T08:53:10.028Z - normal: Simulator:     add searching path:
+2018-11-23T08:53:10.028Z - normal: Simulator: 
+2018-11-23T08:53:10.028Z - normal: Simulator: 
+2018-11-23T08:53:10.029Z - normal: Simulator: 
+2018-11-23T08:53:10.029Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:53:10.029Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:53:10.030Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:53:10.106Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:53:10.398Z - normal: Simulator: iShow!
+2018-11-23T08:53:10.702Z - normal: Simulator: InitScene: 3.375ms
+2018-11-23T08:53:10.703Z - normal: Simulator: AutoRelease: 0.31799999999998363ms
+2018-11-23T08:53:10.703Z - normal: Simulator: Destroy: 0.1999999999999318ms
+2018-11-23T08:53:10.703Z - normal: Simulator: AttachPersist: 0.0029999999999290594ms
+2018-11-23T08:53:10.768Z - normal: Simulator: Storage path for remote asset : /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/blackjack-remote-asset
+2018-11-23T08:53:10.868Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-11-23T08:53:10.868Z - normal: Simulator: Activate: 164.846ms
+2018-11-23T08:53:13.762Z - normal: Simulator: V/AudioCache (311): pcm buffer was loaded successfully, total frames: 5184, total read frames: 5184, adjust frames: 0, remainingFrames: 0
+2018-11-23T08:53:13.762Z - normal: Simulator: JS Custom Version Compare: version A is 1.10, version B is 2.0
+2018-11-23T08:53:13.790Z - normal: Simulator: Code: 5
+2018-11-23T08:53:13.791Z - normal: Simulator: JS Custom Version Compare: version A is 2.0, version B is 2.3
+2018-11-23T08:53:13.791Z - normal: Simulator: Code: 3
+2018-11-23T08:53:35.098Z - normal: Simulator: Code: 5
+2018-11-23T08:53:35.111Z - normal: Simulator: JS Custom Version Compare: version A is 2.0, version B is 2.3
+2018-11-23T08:53:35.112Z - normal: Simulator: Code: 3
+2018-11-23T08:53:35.114Z - normal: Simulator: Code: 8
+2018-11-23T08:53:35.114Z - normal: Simulator: ["/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/blackjack-remote-asset/"]
+2018-11-23T08:53:35.166Z - normal: Simulator: V/AudioPlayer (315): Exit rotate buffer thread ...
+2018-11-23T08:53:35.167Z - normal: Simulator: HttpClient singleton is nullptr
+2018-11-23T08:53:35.193Z - normal: Simulator: basic_object_finalize 0x14be26a0 ...
+2018-11-23T08:53:35.193Z - normal: Simulator: jsbindings: finalizing JS object 0x14be26d0 (WebSocket)
+2018-11-23T08:53:35.194Z - normal: Simulator: jsbindings: finalizing JS object 0x14be2700 (SocketIO)
+2018-11-23T08:53:35.194Z - normal: Simulator: JavaScriptObjCBridge_finalize 0x14be2790 ...
+2018-11-23T08:53:35.194Z - normal: Simulator: JavaScriptObjCBridge_finalize 0x14be2a00 ...
+2018-11-23T08:53:35.205Z - normal: Simulator: RuntimeEngine already has Runtime type 2.
+2018-11-23T08:53:35.205Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:53:35.205Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:53:35.205Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:53:35.278Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:53:35.549Z - normal: Simulator: iShow!
+2018-11-23T08:53:35.702Z - normal: Simulator: InitScene: 3.4180000000000064ms
+2018-11-23T08:53:35.702Z - normal: Simulator: AutoRelease: 0.3050000000000068ms
+2018-11-23T08:53:35.702Z - normal: Simulator: Destroy: 0.23099999999999454ms
+2018-11-23T08:53:35.703Z - normal: Simulator: AttachPersist: 0.003999999999962256ms
+2018-11-23T08:53:35.776Z - normal: Simulator: Storage path for remote asset : /Users/fanlinsong/Documents/blackjack-remote-asset
+2018-11-23T08:53:35.816Z - normal: Simulator: Activate: 86.96600000000001ms
+2018-11-23T08:53:56.704Z - normal: Simulator: JS Custom Version Compare: version A is 1.10, version B is 2.0
+2018-11-23T08:53:57.897Z - normal: Simulator: Code: 5
+2018-11-23T08:53:57.898Z - normal: Simulator: JS Custom Version Compare: version A is 2.0, version B is 2.3
+2018-11-23T08:53:57.898Z - normal: Simulator: Code: 3
+2018-11-23T08:54:00.957Z - normal: Simulator: Code: 5
+2018-11-23T08:54:00.958Z - normal: Simulator: JS Custom Version Compare: version A is 2.0, version B is 2.3
+2018-11-23T08:54:00.959Z - normal: Simulator: Code: 3
+2018-11-23T08:54:00.961Z - normal: Simulator: Code: 8
+2018-11-23T08:54:00.961Z - normal: Simulator: ["/Users/fanlinsong/Documents/blackjack-remote-asset/"]
+2018-11-23T08:54:01.000Z - normal: Simulator: V/AudioPlayer (315): Exit rotate buffer thread ...
+2018-11-23T08:54:01.001Z - normal: Simulator: HttpClient singleton is nullptr
+2018-11-23T08:54:01.037Z - normal: Simulator: basic_object_finalize 0x14ce26a0 ...
+2018-11-23T08:54:01.037Z - normal: Simulator: jsbindings: finalizing JS object 0x14ce26d0 (WebSocket)
+2018-11-23T08:54:01.038Z - normal: Simulator: jsbindings: finalizing JS object 0x14ce2700 (SocketIO)
+2018-11-23T08:54:01.038Z - normal: Simulator: JavaScriptObjCBridge_finalize 0x14ce2790 ...
+2018-11-23T08:54:01.038Z - normal: Simulator: JavaScriptObjCBridge_finalize 0x14ce2a00 ...
+2018-11-23T08:54:01.061Z - normal: Simulator: RuntimeEngine already has Runtime type 2.
+2018-11-23T08:54:01.061Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:54:01.062Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T08:54:01.062Z - normal: Simulator: ------------------------------------------------
+2018-11-23T08:54:01.121Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T08:54:01.394Z - normal: Simulator: iShow!
+2018-11-23T08:54:01.543Z - normal: Simulator: InitScene: 3.265000000000043ms
+2018-11-23T08:54:01.544Z - normal: Simulator: AutoRelease: 0.40100000000001046ms
+2018-11-23T08:54:01.544Z - normal: Simulator: Destroy: 0.19799999999997908ms
+2018-11-23T08:54:01.544Z - normal: Simulator: AttachPersist: 0.004000000000019099ms
+2018-11-23T08:54:01.573Z - normal: Simulator: Storage path for remote asset : /Users/fanlinsong/Documents/blackjack-remote-asset
+2018-11-23T08:54:01.633Z - normal: Simulator: Activate: 89.66699999999997ms
+2018-11-23T08:54:10.074Z - normal: Simulator: JS Custom Version Compare: version A is 1.10, version B is 2.3
+2018-11-23T08:54:10.082Z - normal: Simulator: JS Custom Version Compare: version A is 2.3, version B is 2.3
+2018-11-23T09:00:44.026Z - warn: The 'type' attribute of 'AudioMng.winAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T09:00:44.027Z - warn: The 'type' attribute of 'AudioMng.loseAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T09:00:44.027Z - warn: The 'type' attribute of 'AudioMng.cardAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T09:00:44.028Z - warn: The 'type' attribute of 'AudioMng.buttonAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T09:00:44.028Z - warn: The 'type' attribute of 'AudioMng.chipsAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T09:00:44.028Z - warn: The 'type' attribute of 'AudioMng.bgm' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2018-11-23T09:00:47.750Z - normal: Simulator: WORKAREA WIDTH 1440.00, HEIGHT 855.00
+2018-11-23T09:00:47.751Z - normal: Simulator: FRAME SCALE = 1.00
+2018-11-23T09:00:47.762Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T09:00:47.763Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T09:00:47.764Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-23T09:00:47.834Z - normal: Simulator: 
+2018-11-23T09:00:47.834Z - normal: Simulator: {
+2018-11-23T09:00:47.835Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-23T09:00:47.835Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-23T09:00:47.835Z - normal: Simulator: 	cocos2d.x.version: 1.6.2
+2018-11-23T09:00:47.835Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-23T09:00:47.835Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-23T09:00:47.836Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2018-11-23T09:00:47.836Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-11-23T09:00:47.836Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-23T09:00:47.836Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-23T09:00:47.836Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-23T09:00:47.836Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-11-23T09:00:47.837Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-23T09:00:47.837Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-23T09:00:47.837Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-23T09:00:47.837Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-23T09:00:47.837Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-23T09:00:47.838Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-11-23T09:00:47.838Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-23T09:00:47.838Z - normal: Simulator: }
+2018-11-23T09:00:47.839Z - normal: Simulator: 
+2018-11-23T09:00:47.839Z - normal: Simulator: 
+2018-11-23T09:00:47.839Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-11-23T09:00:47.916Z - normal: Simulator: Project Config:
+2018-11-23T09:00:47.917Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-23T09:00:47.917Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-23T09:00:47.917Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-23T09:00:47.917Z - normal: Simulator:     frame size: 960 x 640
+2018-11-23T09:00:47.918Z - normal: Simulator:     frame scale: 1.00
+2018-11-23T09:00:47.918Z - normal: Simulator:     show console: NO
+2018-11-23T09:00:47.918Z - normal: Simulator:     write debug log: NO ()
+2018-11-23T09:00:47.918Z - normal: Simulator:     listen: 
+2018-11-23T09:00:47.919Z - normal: Simulator:     debugger: none
+2018-11-23T09:00:47.919Z - normal: Simulator:     add searching path:
+2018-11-23T09:00:47.919Z - normal: Simulator: 
+2018-11-23T09:00:47.919Z - normal: Simulator: 
+2018-11-23T09:00:47.919Z - normal: Simulator: 
+2018-11-23T09:00:47.919Z - normal: Simulator: ------------------------------------------------
+2018-11-23T09:00:47.920Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-23T09:00:47.920Z - normal: Simulator: ------------------------------------------------
+2018-11-23T09:00:47.970Z - normal: Simulator: Cocos2d-x-lite v1.6.0
+2018-11-23T09:00:48.295Z - normal: Simulator: iShow!
+2018-11-23T09:00:48.619Z - normal: Simulator: InitScene: 3.4220000000000255ms
+2018-11-23T09:00:48.619Z - normal: Simulator: AutoRelease: 0.30199999999990723ms
+2018-11-23T09:00:48.620Z - normal: Simulator: Destroy: 0.2300000000000182ms
+2018-11-23T09:00:48.630Z - normal: Simulator: AttachPersist: 0.0049999999999954525ms
+2018-11-23T09:00:48.715Z - normal: Simulator: Storage path for remote asset : /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/blackjack-remote-asset
+2018-11-23T09:00:48.796Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-11-23T09:00:48.797Z - normal: Simulator: Activate: 176.84299999999996ms
+2018-11-23T09:00:50.964Z - normal: Simulator: V/AudioCache (311): pcm buffer was loaded successfully, total frames: 5184, total read frames: 5184, adjust frames: 0, remainingFrames: 0
+2018-11-23T09:00:50.964Z - normal: Simulator: JS Custom Version Compare: version A is 1.10, version B is 2.3
+2018-11-23T09:00:50.994Z - normal: Simulator: Code: 5
+2018-11-23T09:00:50.997Z - normal: Simulator: JS Custom Version Compare: version A is 2.3, version B is 2.3
+2018-11-23T09:00:50.997Z - normal: Simulator: Code: 4
+2018-11-23T10:38:58.392Z - normal: Simulator: HttpClient singleton is nullptr

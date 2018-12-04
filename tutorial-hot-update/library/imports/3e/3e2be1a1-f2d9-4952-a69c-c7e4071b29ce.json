@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "goldbox",
+    "texture": "e2262304-4d8b-496b-8488-a1a9b88cad06",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      281,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      281,
+      76
+    ]
+  }
+}
