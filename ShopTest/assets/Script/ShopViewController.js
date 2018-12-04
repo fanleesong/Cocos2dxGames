@@ -10,9 +10,10 @@ cc.Class({
         pageView: cc.PageView,
         scrollView: cc.ScrollView,
         _positionAll: [],
-        pageControlRedNode : cc.Texture2D,
-        pageControlYellowNode : cc.Texture2D,
-        _curScrollViewPosition: cc.v2(0,0),
+        pageControlRedNode: cc.Texture2D,
+        pageControlYellowNode: cc.Texture2D,
+        _curScrollViewPosition: cc.v2(0, 0),
+        _pagePosAllArr: [],
 
     },
 
@@ -22,8 +23,9 @@ cc.Class({
         this._registerTouchEvent();
         this._initItemData();
         this._initUIBtn();
-        this._initPageView();
         this._initScrollView();
+        this._initPageView();
+
 
         this._autoChangePageView();
         this._scrollViewAutoChangePage();
@@ -58,6 +60,9 @@ cc.Class({
 
     _initPageView: function () {
 
+        this._pagePosAllArr = [];
+
+
         let pageView = cc.find("pageView", this.node);
         if (this._itemArray !== null) {
             for (let i = 0; i < this._itemArray.length; i++) {
@@ -83,13 +88,14 @@ cc.Class({
         let node = event.node;
         let pageIndex = node.getComponent(cc.PageView).getCurrentPageIndex();
         let count = this.pageView.getPages().length;
-        // console.log(`[ShopViewController]   page index:${pageIndex}`);
+        console.log(`[ShopViewController]   page index:${pageIndex}` +   "   \n" + cc.find("pageView/view/content",this.node).x);
         if (pageIndex + 1 <= count) {
             cc.find('pageCode', this.node).getComponent(cc.Label).string = `PageView自动翻页>>>>第 ${pageIndex + 1} 页滚屏`;
             // console.log("[ShopViewController]---->第"+(pageIndex + 1)+"页: " + " x轴坐标： " + pageViewNode.x + " y轴坐标：" +pageViewNode.y);
         }
 
     },
+
     _autoChangePageView: function () {
 
         this.schedule(() => {
@@ -118,18 +124,18 @@ cc.Class({
             }
 
             let content = cc.find("scrollView/view/content", this.node);
-            let paddingValue = content.getComponent(cc.Layout).paddingLeft;
+            // let paddingValue = content.getComponent(cc.Layout).paddingLeft;
             let spacingX = content.getComponent(cc.Layout).spacingX;
             let itemWidth = content.children[0].getContentSize().width;
             let allWidth = (content.childrenCount * itemWidth + spacingX * (content.childrenCount + 1)) / 2;
             for (let index = 0; index < content.childrenCount; index++) {
-                let posX = allWidth - (300 * (1 + 2 * index)) - (paddingValue * (index + 1));
+                let posX = allWidth - ((itemWidth / 2) * (1 + 2 * index)) - (spacingX * (index + 1));
                 this._positionAll.push(cc.v2(posX, 0));
             }
             content.setPosition(this._positionAll[0]);
 //[{"x":1878,"y":0},{"x":1252,"y":0},{"x":626,"y":0},{"x":0,"y":0},{"x":-626,"y":0},{"x":-1252,"y":0},{"x":-1878,"y":0}]
             cc.find("scrollViewLabel", this.node).getComponent(cc.Label).string = "以下ScrollView自动翻页 >>> 第 1 页";
-            console.log("子节点数：" + content.childrenCount + "   paddingValue:  " + paddingValue + "  allWidth: " + allWidth + "\n->Position:   " + JSON.stringify(this._positionAll));
+            console.log("子节点数：" + content.childrenCount + "   paddingValue:  " + spacingX + "  allWidth: " + allWidth + "\n->Position:   " + JSON.stringify(this._positionAll));
 
             this._addScrollViewPageControlNode();
 
@@ -224,10 +230,10 @@ cc.Class({
      * */
     _setScrollViewPageLight: function (currentIndex) {
 
-        let  pageNode = cc.find("scrollView/pageNode", this.node);
-        if(currentIndex <= pageNode.childrenCount && currentIndex >= 0){
+        let pageNode = cc.find("scrollView/pageNode", this.node);
+        if (currentIndex <= pageNode.childrenCount && currentIndex >= 0) {
             for (let i = 0; i < pageNode.childrenCount; i++) {
-                if(currentIndex !== i){
+                if (currentIndex !== i) {
                     let tempNode = pageNode.children[i];
                     tempNode.getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(this.pageControlYellowNode);
                 }
@@ -316,17 +322,14 @@ cc.Class({
             onTouchBegan: function (touches, event) {
                 return true;
             },
-            onTouchMoved: function (touches,event) {
+            onTouchMoved: function (touches, event) {
             },
-            onTouchEnded: function (touches,event) {
+            onTouchEnded: function (touches, event) {
 
                 //获取手指触摸结束时的位置
                 let location = touches.getLocation();
                 let real = cc.director.getScene().convertToNodeSpace(location);
-                console.log("结束点location： " + JSON.stringify(location)  + "    real:  " + real);
-
-
-
+                console.log("结束点location： " + JSON.stringify(location) + "    real:  " + real);
 
 
             }
