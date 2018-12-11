@@ -17,6 +17,7 @@ cc.Class({
         // this._registerTouchEvent();
 
         this.node.on("click",(ev)=>{
+            console.log("----广告点击到了---");
             if (this._clickCallback !== null) this._clickCallback();
         });
 
@@ -42,7 +43,7 @@ cc.Class({
     _registerTouchEvent: function () {
         let listener = {
             event: cc.EventListener.TOUCH_ONE_BY_ONE,
-            swallowTouches: true,
+            swallowTouches: false,
             onTouchBegan: function (touches, event) {
                 return true;
             },
