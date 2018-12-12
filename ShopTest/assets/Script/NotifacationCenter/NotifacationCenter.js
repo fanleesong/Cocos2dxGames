@@ -1,4 +1,4 @@
-const NotificationCenter = {
+let NotificationCenter = {
     handles_: {},
     //发送事件
     emit: function (eventName, data) {
