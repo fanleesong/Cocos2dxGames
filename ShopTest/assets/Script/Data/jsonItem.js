@@ -19,21 +19,21 @@ const adItemList = [
         itemName: "芭比娃娃",
         isHave: true,
     },
-    {
-        itemType: "勋章",
-        itemName: "大力神杯",
-        isHave: true,
-    },
-    {
-        itemType: "勋章",
-        itemName: "超人在线",
-        isHave: false,
-    },
-    {
-        itemType: "勋章",
-        itemName: "蜘蛛侠",
-        isHave: false,
-    }
+    // {
+    //     itemType: "勋章",
+    //     itemName: "大力神杯",
+    //     isHave: true,
+    // },
+    // {
+    //     itemType: "勋章",
+    //     itemName: "超人在线",
+    //     isHave: false,
+    // },
+    // {
+    //     itemType: "勋章",
+    //     itemName: "蜘蛛侠",
+    //     isHave: false,
+    // }
 
 ];
 

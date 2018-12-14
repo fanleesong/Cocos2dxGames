@@ -92,30 +92,25 @@ cc.Class({
         if (this._endTouchPosition.x > this._startTouchPosition.x
             && (Math.abs(this._endTouchPosition.x - this._startTouchPosition.x) >= THRESHOLD
                 || Math.abs(this._endTouchPosition.y - this._startTouchPosition.y) >= THRESHOLD)){
-            console.log('[onEventEnd]向右滑动');
-            this.node.emit('CHECK', {
-                msg: '----------测试通知这是向右滑动',
+            // console.log('[onEventEnd]向右滑动');
+            this.node.emit('RIGHT', {
+                msg: '----------测试通知这是向右滑动-----------',
             });
-
-            // cc.ss.notice.emit('CHECK', {
-            //     msg: '----------测试通知这是向右滑动',
-            // });
-
         } else if (this._endTouchPosition.x < this._startTouchPosition.x
             && (Math.abs(this._endTouchPosition.x - this._startTouchPosition.x) >= THRESHOLD
             || Math.abs(this._endTouchPosition.y - this._startTouchPosition.y) >= THRESHOLD)){
-            console.log('[onEventEnd]向左滑动');
+            // console.log('[onEventEnd]向左滑动');
 
-            this.node.emit('CHECK', {
-                msg: '----------测试通知这是向左滑动',
+            this.node.emit('LEFT', {
+                msg: '----------测试通知这是向左滑动-----------',
             });
 
-            // cc.ss.notice.emit('CHECK', {
-            //     msg: '----------测试通知这是向左滑动',
-            // });
-
         } else {
-            console.log('[onEventEnd]没有滑动');
+
+            this.node.emit('CENTER', {
+                msg: '----------测试通知这是无滑动-----------',
+            });
+            // console.log('[onEventEnd]没有滑动');
         }
     },
 

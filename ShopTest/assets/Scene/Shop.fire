@@ -2081,6 +2081,9 @@
       "x": 0,
       "y": 0
     },
-    "_pagePosAllArr": []
+    "_pagePosAllArr": [],
+    "_isLeftToRight": true,
+    "_lastPageIndex": 0,
+    "_currentPageIndex": 0
   }
 ]

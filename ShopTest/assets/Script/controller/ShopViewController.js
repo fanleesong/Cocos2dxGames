@@ -1,3 +1,4 @@
+const JsonAdItem = require('jsonItem');
 cc.Class({
     extends: cc.Component,
 
@@ -14,6 +15,9 @@ cc.Class({
         pageControlYellowNode: cc.Texture2D,
         _curScrollViewPosition: cc.v2(0, 0),
         _pagePosAllArr: [],
+        _isLeftToRight: true,
+        _lastPageIndex: 0,
+        _currentPageIndex: 0,
 
     },
 
@@ -88,26 +92,92 @@ cc.Class({
         let node = event.node;
         let pageIndex = node.getComponent(cc.PageView).getCurrentPageIndex();
         let count = this.pageView.getPages().length;
-        console.log(`[ShopViewController]   page index:${pageIndex}` +   "   \n" + cc.find("pageView/view/content",this.node).x);
-        if (pageIndex + 1 <= count) {
-            cc.find('pageCode', this.node).getComponent(cc.Label).string = `PageView自动翻页>>>>第 ${pageIndex + 1} 页滚屏`;
-            // console.log("[ShopViewController]---->第"+(pageIndex + 1)+"页: " + " x轴坐标： " + pageViewNode.x + " y轴坐标：" +pageViewNode.y);
-        }
+        console.log(`[ShopViewController]   page index:${pageIndex}` + "   \n" + cc.find("pageView/view/content", this.node).x);
+        // if (pageIndex + 1 <= count) {
+        //     cc.find('pageCode', this.node).getComponent(cc.Label).string = `PageView自动翻页>>>>第 ${pageIndex + 1} 页滚屏`;
+        //     // console.log("[ShopViewController]---->第"+(pageIndex + 1)+"页: " + " x轴坐标： " + pageViewNode.x + " y轴坐标：" +pageViewNode.y);
+        // }
 
     },
 
     _autoChangePageView: function () {
 
+        // this.schedule(() => {
+        //     let allPageCount = this.pageView.getPages().length;//一共多少页
+        //     let index = this.pageView.getCurrentPageIndex();//取当前页下序号
+        //     index = ((index < allPageCount) && (index + 1 !== allPageCount)) ? (index + 1) : 0;//为最后一页，index为0，否则+1
+        //     this.pageView.setCurrentPageIndex(index);
+        // }, 3);
+
+        this._autoSlidePage();
+
+    },
+
+    _autoSlidePage: function () {
+
         this.schedule(() => {
-            let allPageCount = this.pageView.getPages().length;//一共多少页
-            let index = this.pageView.getCurrentPageIndex();//取当前页下序号
-            index = ((index < allPageCount) && (index + 1 !== allPageCount)) ? (index + 1) : 0;//为最后一页，index为0，否则+1
-            this.pageView.setCurrentPageIndex(index);
+            // let allPageCount = this.pageView.getPages().length;//一共多少页
+            //             // let index = this.pageView.getCurrentPageIndex();//取当前页下序号
+            //             // this._currentPageIndex = index;
+            //             // console.log("---变换之前---index-->" + index + "    --> index+1 = " + (index + 1));
+            //             // // index = ((index < allPageCount) && (index + 1 !== allPageCount)) ? (index + 1) : (index -1);//为最后一页，index为0，否则+1
+            //             // this.pageView.setCurrentPageIndex(index);
+            //             // this._lastPageIndex = index;
+            //             // console.log("---变换之后---index-->" + index);
+
+
+            // this._changeAddItem();
+
         }, 3);
 
     },
-    /****************************************************PageView自动翻页**********************************************************************/
 
+    _changeAddItem: function () {
+
+        let allPageCount = this.pageView.getPages().length;//一共多少页
+        this._currentPageIndex = this.pageView.getCurrentPageIndex();//取当前页下序号
+        this._currentPageIndex++;
+        this._controlAddFunc();
+
+    },
+
+    _controlAddFunc: function () {
+        let allPageCount = this.pageView.getPages().length;//一共多少页
+        if (this._currentPageIndex == allPageCount) {
+            // this._currentPageIndex = 0;
+            this._changeDelItem();
+        }
+        if (this._currentPageIndex == -1) {
+            // this._currentPageIndex = allPageCount;
+            this._changeAddItem();
+        }
+        this.pageView.setCurrentPageIndex(this._currentPageIndex);
+    },
+
+    _changeDelItem: function () {
+
+        let allPageCount = this.pageView.getPages().length;//一共多少页
+        this._currentPageIndex = this.pageView.getCurrentPageIndex();//取当前页下序号
+        this._currentPageIndex--;
+        this._controlDelFunc();
+
+    },
+
+    _controlDelFunc: function () {
+        let allPageCount = this.pageView.getPages().length;//一共多少页
+        if (this._currentPageIndex == allPageCount) {
+            this._currentPageIndex = allPageCount - 1;
+            this._changeDelItem();
+        }
+        if (this._currentPageIndex == -1) {
+            this._currentPageIndex = 0;
+            this._changeAddItem();
+        }
+        this.pageView.setCurrentPageIndex(this._currentPageIndex);
+    },
+
+
+    /****************************************************PageView自动翻页**********************************************************************/
 
 
     /****************************************************ScrollView自动翻页**********************************************************************/
@@ -142,16 +212,18 @@ cc.Class({
 
         }
 
-    },
+    }
+    ,
 
-    //[{"x":1878,"y":0},{"x":1252,"y":0},{"x":626,"y":0},{"x":0,"y":0},{"x":-626,"y":0},{"x":-1252,"y":0},{"x":-1878,"y":0}]
+//[{"x":1878,"y":0},{"x":1252,"y":0},{"x":626,"y":0},{"x":0,"y":0},{"x":-626,"y":0},{"x":-1252,"y":0},{"x":-1878,"y":0}]
     scrollViewChangeEvent: function (event, custom) {
         // let node = event.node;
         // let content = cc.find("scrollView/view/content", this.node);
         // console.log("[scrollViewChangeEvent]---->content  x轴坐标： " + content.x + " y轴坐标：" + content.y);
         // console.log("[scrollViewChangeEvent]---->位置数组：   " + JSON.stringify(this._positionAll));
 
-    },
+    }
+    ,
 
 
     _scrollViewAutoChangePage: function () {
@@ -169,19 +241,22 @@ cc.Class({
             cc.find("scrollViewLabel", this.node).getComponent(cc.Label).string = "以下ScrollView自动翻页 >>> 第 " + (index + 1) + " 页";
         }, 3);
 
-    },
+    }
+    ,
 
     _findIndexByPosition: function (sourcePos) {
         for (let i = 0; i < this._positionAll.length; i++) {
             let m_pos = this._positionAll[i];
             return ((m_pos.x === sourcePos.x && m_pos.y === sourcePos) ? i : 0);
         }
-    },
+    }
+    ,
 
     _findPositionByIndex: function (index) {
         if (index >= 0 && index < this.scrollView.content.childrenCount) return this._positionAll[index];
         return cc.v2(0, 0);
-    },
+    }
+    ,
 
 
     _addScrollViewPageControlNode: function () {
@@ -221,7 +296,8 @@ cc.Class({
         this._setScrollViewPageLight(0);
 
 
-    },
+    }
+    ,
 
     /** 
      * * 点亮pageNode小页签变为黄色
@@ -245,74 +321,42 @@ cc.Class({
         //     node.getComponent(cc.Sprite).spriteFrame = spFrame;
         // });
 
-    },
+    }
+    ,
 
     /****************************************************ScrollView自动翻页**********************************************************************/
-
 
 
     onDestroy: function () {
 
         cc.eventManager.removeListener(this._listenerId);
 
-    },
+    }
+    ,
 
 
     _clickRecommendBtnEvent: function () {
 
-    },
+    }
+    ,
 
     _clickLittlerHouseBtnEvent: function () {
 
-    },
+    }
+    ,
 
     _clickMedalCollectBtnEvent: function () {
 
-    },
+    }
+    ,
 
     _initItemData: function () {
 
 
-        this._itemArray = [
-            {
-                itemType: "推荐",
-                itemName: "每日优品",
-                isHave: false,
-            },
-            {
-                itemType: "推荐",
-                itemName: "每日优品",
-                isHave: false,
-            },
-            {
-                itemType: "小屋",
-                itemName: "卡车库",
-                isHave: true,
-            },
-            {
-                itemType: "小屋",
-                itemName: "芭比娃娃",
-                isHave: true,
-            },
-            {
-                itemType: "勋章",
-                itemName: "大力神杯",
-                isHave: true,
-            },
-            {
-                itemType: "勋章",
-                itemName: "超人在线",
-                isHave: false,
-            },
-            {
-                itemType: "勋章",
-                itemName: "蜘蛛侠",
-                isHave: false,
-            }
+        this._itemArray = JsonAdItem;
 
-        ];
-
-    },
+    }
+    ,
 
     _registerTouchEvent: function () {
 
@@ -336,7 +380,23 @@ cc.Class({
         };
 
         this._listenerId = cc.eventManager.addListener(listener, this.node);
-    },
+    }
+    ,
 
 
-});
+})
+;
+
+/**
+ *
+ * 参考思路
+ * https://blog.csdn.net/chenhezhuyan/article/details/52825414
+ 1)在UIScrollView上面添加3个UIImageView，分别为leftImageView,centerImageView,RightImageView
+ 2)UIScrollView初始化时，contentOffset停留在中间的UIImageView
+ 3)使用一个定时器，定时器触发是，把contentOffset从中间通过动画滑动到第三个UIImageView的位置
+ 4)滑动完成时候，要进行最关键的复位操作，就是迅速把contentOffset切换回第二个UIImageView的位置，
+ 但是切换前，先centerImageView.image = rightjImageView.image,注意，这里不适用动画，所以用户看不出来切换了
+ 5）下次定时器触发时，又把contentOffset从第二个位置通过动画滑动到第三个位置
+ 6）事实上2个UIImageView就可以实现，但是左边一直有一个提供用户手动向左滑动
+ *
+ */
