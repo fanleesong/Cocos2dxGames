@@ -432,7 +432,7 @@
     "horizontal": true,
     "vertical": false,
     "inertia": true,
-    "brake": 0.75,
+    "brake": 0.1,
     "elastic": true,
     "bounceDuration": 0.23,
     "scrollEvents": [
@@ -1203,6 +1203,13 @@
     },
     "tempImage": {
       "__uuid__": "54076d42-e2e7-4251-93bc-f57d6ef66cc9"
-    }
+    },
+    "_scrollViewList": [],
+    "_leftBannerPrefab": null,
+    "_centerBannerPrefab": null,
+    "_rightBannerPrefab": null,
+    "_currentPageIndex": 0,
+    "_bannerWith": 0,
+    "_isSlideDirection": null
   }
 ]

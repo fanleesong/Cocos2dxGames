@@ -61,9 +61,70 @@ cc.Class({
         this.scrollViewContent.addChild(this._rightBannerPrefab);
 
         this.scheduleOnce(() => {
-            console.log("------宽度---" + this._bannerWith);
+
             this.scrollView.scrollToOffset(cc.v2(this._centerBannerPrefab.width, 0));
         }, 0);
+
+
+        // this.schedule(()=>{
+        //     this.node.runAction(cc.sequence(cc.callFunc(() => {
+        //             console.log("------下标之前---" + this._currentPageIndex);
+        //             this._currentPageIndex++;
+        //             if (this._currentPageIndex == this._scrollViewList.length) {
+        //                 this._currentPageIndex = 0;
+        //             }
+        //             console.log("------下标之后---" + this._currentPageIndex);
+        //             this.scrollView.scrollToOffset(cc.v2(this._bannerWith * 2, 0),2);
+        //         }),
+        //         cc.callFunc(() => {
+        //             ///滑动完成后，把当前现实的imageview重现移动回中间位置，此处不能使用动画，用户感觉不到
+        //             ///移动前,先把中间imageview的image设置成当前现实的iamge
+        //             this._leftBannerPrefab = this._centerBannerPrefab;
+        //             this._centerBannerPrefab = this._rightBannerPrefab;
+        //             this.scrollView.scrollToOffset(cc.v2(this._bannerWith * 1, 0));
+        //             this._rightBannerPrefab = this._getBannerAdPrefabAfterIndex(this._currentPageIndex);
+        //
+        //             this.node.runAction(cc.sequence(cc.callFunc(() => {
+        //                 this.scrollViewContent.removeAllChildren(true);
+        //             }), cc.callFunc(() => {
+        //                 this.scrollViewContent.addChild(this._leftBannerPrefab);
+        //                 this.scrollViewContent.addChild(this._centerBannerPrefab);
+        //                 this.scrollViewContent.addChild(this._rightBannerPrefab);
+        //             })));
+        //
+        //         })));
+        //
+        // },3);
+
+        let seq = cc.sequence(cc.delayTime(3),cc.callFunc(()=>{
+
+            this._currentPageIndex++;
+            if (this._currentPageIndex == this._scrollViewList.length) {
+                this._currentPageIndex = 0;
+            }
+            console.log("------下标之后---" + this._currentPageIndex);
+            this.scrollView.scrollToOffset(cc.v2(this._bannerWith * 2, 0),2);
+
+        }),cc.callFunc(()=>{
+
+            ///滑动完成后，把当前现实的imageview重现移动回中间位置，此处不能使用动画，用户感觉不到
+            ///移动前,先把中间imageview的image设置成当前现实的iamge
+            this._leftBannerPrefab = this._centerBannerPrefab;
+            this._centerBannerPrefab = this._rightBannerPrefab;
+            this.scrollView.scrollToOffset(cc.v2(this._bannerWith * 1, 0));
+            this._rightBannerPrefab = this._getBannerAdPrefabAfterIndex(this._currentPageIndex);
+
+            this.node.runAction(cc.sequence(cc.callFunc(() => {
+                this.scrollViewContent.removeAllChildren(true);
+            }), cc.callFunc(() => {
+                this.scrollViewContent.addChild(this._leftBannerPrefab);
+                this.scrollViewContent.addChild(this._centerBannerPrefab);
+                this.scrollViewContent.addChild(this._rightBannerPrefab);
+            })));
+
+        }));
+
+        this.node.runAction(cc.repeatForever(seq));
 
     },
 
@@ -75,20 +136,68 @@ cc.Class({
     },
 
     _slideLeftDirection: function () {
-        this.scrollView.scrollToOffset(this._getBannerLeftOffset(this._currentPageIndex));
-        this._commonFuc();
+        this.node.runAction(cc.sequence(cc.callFunc(() => {
+                this._currentPageIndex++;
+                if (this._currentPageIndex == this._scrollViewList.length) {
+                    this._currentPageIndex = 0;
+                }
+                this.scrollView.scrollToOffset(cc.v2(this._bannerWith * 2, 0),3);
+            }),
+            cc.callFunc(() => {
+                ///滑动完成后，把当前现实的imageview重现移动回中间位置，此处不能使用动画，用户感觉不到
+                ///移动前,先把中间imageview的image设置成当前现实的iamge
+                this._leftBannerPrefab = this._centerBannerPrefab;
+                this._centerBannerPrefab = this._rightBannerPrefab;
+                this.scrollView.scrollToOffset(cc.v2(this._bannerWith * 1, 0));
+                this._rightBannerPrefab = this._getBannerAdPrefabAfterIndex(this._currentPageIndex);
+
+                this.node.runAction(cc.sequence(cc.callFunc(() => {
+                    this.scrollViewContent.removeAllChildren(true);
+                }), cc.callFunc(() => {
+                    this.scrollViewContent.addChild(this._leftBannerPrefab);
+                    this.scrollViewContent.addChild(this._centerBannerPrefab);
+                    this.scrollViewContent.addChild(this._rightBannerPrefab);
+                })));
+
+            })));
     },
 
     _slideRightDirection: function () {
-        this.scrollView.scrollToOffset(this._getBannerRightOffset());
-        this._commonFuc();
+        //
+        // this.node.runAction(cc.sequence(cc.callFunc(() => {
+        //         this._currentPageIndex--;
+        //         if (this._currentPageIndex < 0) {
+        //             this._currentPageIndex = this._scrollViewList.length;
+        //         }
+        //         this.scrollView.scrollToOffset(cc.v2(this._bannerWith * 1, 0));
+        //     }),
+        //     cc.callFunc(() => {
+        //         ///滑动完成后，把当前现实的imageview重现移动回中间位置，此处不能使用动画，用户感觉不到
+        //         ///移动前,先把中间imageview的image设置成当前现实的iamge
+        //         this._rightBannerPrefab = this._centerBannerPrefab;
+        //         this._centerBannerPrefab = this._leftBannerPrefab;
+        //         this.scrollView.scrollToOffset(cc.v2(this._bannerWith * 1, 0));
+        //         this._leftBannerPrefab = this._getBannerAdPrefabBeforeIndex(this._currentPageIndex);
+        //
+        //         this.node.runAction(cc.sequence(cc.callFunc(() => {
+        //             this.scrollViewContent.removeAllChildren(true);
+        //         }), cc.callFunc(() => {
+        //             this.scrollViewContent.removeAllChildren(true);
+        //             this.scrollViewContent.addChild(this._leftBannerPrefab);
+        //             this.scrollViewContent.addChild(this._centerBannerPrefab);
+        //             this.scrollViewContent.addChild(this._rightBannerPrefab);
+        //         })));
+        //
+        //     })));
+
+
     },
 
     _slideCenterDirection: function () {
         this.scrollView.scrollToOffset(this._getBannerCenterOffset());
     },
 
-    _commonFuc : function () {
+    _commonFuc: function () {
         // this.scrollView.stopAutoScroll();
         let index = this.scrollView.getScrollOffset().x / this._bannerWith;
         if (index == 0) {
