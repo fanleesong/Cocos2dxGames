@@ -68,32 +68,11 @@ cc.Class({
         // let localPoint = PointConvertUtil.worldConvertLocalPoint(this.node, worldPoint);
         // console.log('move Move \n worldPoint=', JSON.stringify(worldPoint), 'localPoint=', JSON.stringify(localPoint));
 
-        /**
-         *
-         * if (isClickOfficerMove){
-        Vec2 moveDelta = pTouch->getDelta();
-        m_bustPic->setPositionX(m_bustPic->getPositionX() + moveDelta.x);
-
-        Size winSize = CCDirector::getInstance()->getWinSize();
-        m_preBustPic->setPositionX(m_bustPic->getPositionX() - winSize.width);
-        m_nextBustPic->setPositionX(m_bustPic->getPositionX() + winSize.width);
-    }
-         *
-         */
         let middleX = Math.abs(localPoint.x - this._startTouchPosition.x);
         let winSize = cc.director.getWinSize();
         this.curBustPic.x = this.curBustPic.x + middleX;
         this.preBustPic.x = this.curBustPic.x - winSize.width / 2 - this._constWidth / 2;
         this.nextBustPic.x = this.curBustPic.x + winSize.width / 2 + this._constWidth / 2;
-        // if (localPoint.x > this._startTouchPosition.x) {
-        //     this.curBustPic.x = this.curBustPic.x + middleX;
-        //     this.preBustPic.x = this.curBustPic.x - winSize.width;
-        //     this.nextBustPic.x=this.curBustPic.x + winSize.width;
-        // } else {
-        //     this.curBustPic.x = this.curBustPic.x - middleX;
-        //     this.preBustPic.x = this.curBustPic.x - winSize.width;
-        //     this.nextBustPic.x=this.curBustPic.x + winSize.width;
-        // }
 
     },
 
