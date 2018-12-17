@@ -53,6 +53,10 @@ cc.Class({
         }
         this._bannerWith = cc.find('ScrollView/view', this.node).width;
         this._currentPageIndex = 0;
+        let count = this._scrollViewList.length;
+        let m_index = this._currentPageIndex;
+        this.m_preIndex = (m_index + count - 1) % count;
+        this.m_nextIndex = (m_index + count + 1) % count;
         this._leftBannerPrefab = this._getBannerAdPrefabBeforeIndex(this._currentPageIndex);
         this._centerBannerPrefab = this._getBannerAdPrefabAtIndex(this._currentPageIndex);
         this._rightBannerPrefab = this._getBannerAdPrefabAfterIndex(this._currentPageIndex);
@@ -65,16 +69,16 @@ cc.Class({
             this.scrollView.scrollToOffset(cc.v2(this._centerBannerPrefab.width, 0));
         }, 0);
 
-        let seq = cc.sequence(cc.delayTime(3),cc.callFunc(()=>{
+        let seq = cc.sequence(cc.delayTime(3), cc.callFunc(() => {
 
             this._currentPageIndex++;
             if (this._currentPageIndex == this._scrollViewList.length) {
                 this._currentPageIndex = 0;
             }
             console.log("------下标之后---" + this._currentPageIndex);
-            this.scrollView.scrollToOffset(cc.v2(this._bannerWith * 2, 0),2);
+            this.scrollView.scrollToOffset(cc.v2(this._bannerWith * 2, 0), 2);
 
-        }),cc.callFunc(()=>{
+        }), cc.callFunc(() => {
 
             ///滑动完成后，把当前现实的imageview重现移动回中间位置，此处不能使用动画，用户感觉不到
             ///移动前,先把中间imageview的image设置成当前现实的iamge
@@ -110,7 +114,7 @@ cc.Class({
                 if (this._currentPageIndex == this._scrollViewList.length) {
                     this._currentPageIndex = 0;
                 }
-                this.scrollView.scrollToOffset(cc.v2(this._bannerWith * 2, 0),3);
+                this.scrollView.scrollToOffset(cc.v2(this._bannerWith * 2, 0), 3);
             }),
             cc.callFunc(() => {
                 ///滑动完成后，把当前现实的imageview重现移动回中间位置，此处不能使用动画，用户感觉不到
