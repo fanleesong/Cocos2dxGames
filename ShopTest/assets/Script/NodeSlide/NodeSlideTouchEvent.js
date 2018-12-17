@@ -16,7 +16,7 @@ cc.Class({
         preBustPic: cc.Node,
         curBustPic: cc.Node,
         nextBustPic: cc.Node,
-        _constWidth : 0,
+        _constWidth: 0,
 
     },
 
@@ -25,7 +25,7 @@ cc.Class({
         //     console.log("[SelectView]--->" + event.detail.msg);
         // });
         this.registerEvent();
-        this._constWidth = cc.find('touchNode',this.node).width;
+        this._constWidth = cc.find('touchNode', this.node).width;
     },
 
     registerEvent() {
@@ -83,8 +83,8 @@ cc.Class({
         let middleX = Math.abs(localPoint.x - this._startTouchPosition.x);
         let winSize = cc.director.getWinSize();
         this.curBustPic.x = this.curBustPic.x + middleX;
-        this.preBustPic.x = this.curBustPic.x - winSize.width;
-        this.nextBustPic.x=this.curBustPic.x + winSize.width;
+        this.preBustPic.x = this.curBustPic.x - winSize.width / 2 - this._constWidth / 2;
+        this.nextBustPic.x = this.curBustPic.x + winSize.width / 2 + this._constWidth / 2;
         // if (localPoint.x > this._startTouchPosition.x) {
         //     this.curBustPic.x = this.curBustPic.x + middleX;
         //     this.preBustPic.x = this.curBustPic.x - winSize.width;
@@ -154,10 +154,10 @@ cc.Class({
             this.curBustPic.stopAllActions();
             this.nextBustPic.stopAllActions();
 
-            let dt = max_dt * Math.abs(this.curBustPic.x - winSize.width/2.0 - this._constWidth/2)/(winSize.width/2.0);
-            let moveTo1 = cc.moveTo(dt, cc.p(-this._constWidth/2 - winSize.width/2,this.curBustPic.y));
-            let moveTo2 = cc.moveTo(dt, cc.p(0 ,this.curBustPic.y));
-            let moveTo3 = cc.moveTo(dt, cc.p(this._constWidth/2 + winSize.width/2,this.curBustPic.y));
+            let dt = max_dt * Math.abs(this.curBustPic.x - winSize.width / 2.0 - this._constWidth / 2) / (winSize.width / 2.0);
+            let moveTo1 = cc.moveTo(dt, cc.p(-this._constWidth / 2 - winSize.width / 2, this.curBustPic.y));
+            let moveTo2 = cc.moveTo(dt, cc.p(0, this.curBustPic.y));
+            let moveTo3 = cc.moveTo(dt, cc.p(this._constWidth / 2 + winSize.width / 2, this.curBustPic.y));
             this.preBustPic.runAction(moveTo1);
             this.curBustPic.runAction(moveTo2);
             this.nextBustPic.runAction(moveTo3);
