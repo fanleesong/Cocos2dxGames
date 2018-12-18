@@ -1,10 +1,6 @@
 const PointConvertUtil = require('PointConvert');
 
-const THRESHOLD = 20;
-const directValue = cc.Enum({
-    DIR_LEFT: 0,
-    DIR_RIGHT: 1,
-});
+const THRESHOLD = 100;
 
 cc.Class({
     extends: cc.Component,
@@ -17,6 +13,7 @@ cc.Class({
         curBustPic: cc.Node,
         nextBustPic: cc.Node,
         _constWidth: 0,
+        _isCanMove: false,
 
     },
 
@@ -51,7 +48,6 @@ cc.Class({
         //世界坐标
         let worldPoint = event.getLocation();
         let localPoint = PointConvertUtil.worldConvertLocalPointAR(this.node, worldPoint);
-        // let localPoint = PointConvertUtil.worldConvertLocalPoint(this.node, worldPoint);
         this._startTouchPosition = localPoint;
         // console.log('start Event \n worldPoint=', JSON.stringify(worldPoint), 'localPoint=', JSON.stringify(localPoint));
 
@@ -65,12 +61,17 @@ cc.Class({
         //世界坐标
         let worldPoint = event.getLocation();
         let localPoint = PointConvertUtil.worldConvertLocalPointAR(this.node, worldPoint);
-        // let localPoint = PointConvertUtil.worldConvertLocalPoint(this.node, worldPoint);
         // console.log('move Move \n worldPoint=', JSON.stringify(worldPoint), 'localPoint=', JSON.stringify(localPoint));
 
         let middleX = Math.abs(localPoint.x - this._startTouchPosition.x);
         let winSize = cc.director.getWinSize();
-        this.curBustPic.x = this.curBustPic.x + middleX;
+        if (localPoint.x > this._startTouchPosition.x) {
+            this.curBustPic.x = this.curBustPic.x + middleX;
+        } else if (localPoint.x < this._startTouchPosition.x) {
+            this.curBustPic.x = this.curBustPic.x - middleX;
+        }
+
+        // this.curBustPic.x = this.curBustPic.x + middleX;
         this.preBustPic.x = this.curBustPic.x - winSize.width / 2 - this._constWidth / 2;
         this.nextBustPic.x = this.curBustPic.x + winSize.width / 2 + this._constWidth / 2;
 
@@ -87,7 +88,6 @@ cc.Class({
         //世界坐标
         let worldPoint = event.getLocation();
         let localPoint = PointConvertUtil.worldConvertLocalPointAR(this.node, worldPoint);
-        // let localPoint = PointConvertUtil.worldConvertLocalPoint(this.node, worldPoint);
         // console.log('cancel Event \n worldPoint=', JSON.stringify(worldPoint), 'localPoint=', JSON.stringify(localPoint));
 
     },
@@ -105,43 +105,46 @@ cc.Class({
         // console.log('end Event \n worldPoint=', JSON.stringify(worldPoint), 'localPoint=', JSON.stringify(localPoint));
         // console.log('end Event \n 结束点坐标-> ' + JSON.stringify(this._endTouchPosition));
         // console.log('end Event \n 开始点坐标-> ' + JSON.stringify(this._startTouchPosition));
-        if (this._endTouchPosition.x > this._startTouchPosition.x
-            && Math.abs(this._endTouchPosition.x - this._startTouchPosition.x) >= THRESHOLD) {
-            console.log('[onEventEnd]向右滑动');
-            this.node.emit('RIGHT', {
-                msg: '----------测试通知这是向右滑动-----------',
-            });
-        } else if (this._endTouchPosition.x < this._startTouchPosition.x
-            && Math.abs(this._endTouchPosition.x - this._startTouchPosition.x) >= THRESHOLD) {
-            console.log('[onEventEnd]向左滑动');
+        if(this.curBustPic.getNumberOfRunningActions === 0){
 
-            this.node.emit('LEFT', {
-                msg: '----------测试通知这是向左滑动-----------',
-            });
+            if (this._endTouchPosition.x > this._startTouchPosition.x
+                && Math.abs(this._endTouchPosition.x - this._startTouchPosition.x) >= THRESHOLD) {
+                console.log('[onEventEnd]向右滑动');
+                this.node.emit('RIGHT', {
+                    msg: '----------测试通知这是向右滑动-----------',
+                });
+            } else if (this._endTouchPosition.x < this._startTouchPosition.x
+                && Math.abs(this._endTouchPosition.x - this._startTouchPosition.x) >= THRESHOLD) {
+                console.log('[onEventEnd]向左滑动');
 
-        } else {
+                this.node.emit('LEFT', {
+                    msg: '----------测试通知这是向左滑动-----------',
+                });
 
-            this.node.emit('CENTER', {
-                msg: '----------测试通知这是无滑动-----------',
-            });
-            console.log('[onEventEnd]没有滑动');
+            } else {
 
+                this.node.emit('CENTER', {
+                    msg: '----------测试通知这是无滑动-----------',
+                });
+                console.log('[onEventEnd]没有滑动');
+                let max_dt = 0.1;
+                let winSize = cc.director.getWinSize();
+                this.preBustPic.stopAllActions();
+                this.curBustPic.stopAllActions();
+                this.nextBustPic.stopAllActions();
 
-            let max_dt = 0.1;
-            let winSize = cc.director.getWinSize();
-            this.preBustPic.stopAllActions();
-            this.curBustPic.stopAllActions();
-            this.nextBustPic.stopAllActions();
+                let dt = max_dt * Math.abs(this.curBustPic.x - winSize.width / 2.0 - this._constWidth / 2) / (winSize.width / 2.0);
+                let moveTo1 = cc.moveTo(dt, cc.p(-this._constWidth / 2 - winSize.width / 2, this.curBustPic.y));
+                let moveTo2 = cc.moveTo(dt, cc.p(0, this.curBustPic.y));
+                let moveTo3 = cc.moveTo(dt, cc.p(this._constWidth / 2 + winSize.width / 2, this.curBustPic.y));
+                this.preBustPic.runAction(moveTo1);
+                this.curBustPic.runAction(moveTo2);
+                this.nextBustPic.runAction(moveTo3);
 
-            let dt = max_dt * Math.abs(this.curBustPic.x - winSize.width / 2.0 - this._constWidth / 2) / (winSize.width / 2.0);
-            let moveTo1 = cc.moveTo(dt, cc.p(-this._constWidth / 2 - winSize.width / 2, this.curBustPic.y));
-            let moveTo2 = cc.moveTo(dt, cc.p(0, this.curBustPic.y));
-            let moveTo3 = cc.moveTo(dt, cc.p(this._constWidth / 2 + winSize.width / 2, this.curBustPic.y));
-            this.preBustPic.runAction(moveTo1);
-            this.curBustPic.runAction(moveTo2);
-            this.nextBustPic.runAction(moveTo3);
+            }
 
         }
+
     },
 
     update(dt) {
